@@ -1,0 +1,8 @@
+# Site settings
+title: "Patrick Breheny"
+baseurl: ""
+url: "http://myweb.uiowa.edu/pbreheny"
+
+# Build settings
+markdown: kramdown
+exclude: [build, background.R, pubs, data, dissertation, v, Makefile]

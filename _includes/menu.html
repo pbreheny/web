@@ -1,0 +1,15 @@
+{% assign current = page.url | remove_first:'/' %}
+<nav>
+<div class="container">
+  <ul>
+    <li {% if current == 'index.html' %}class='active'{% endif %}><a  href="index.html" >Home</a></li>
+    <li><a href="publications/BrehenyCV.pdf">CV</a></li>
+    <li {% if current == 'research.html' %}class='active'{% endif %}><a href="research.html">Research</a></li>
+    <li {% if current == 'teaching.html' %}class='active'{% endif %}><a href="teaching.html">Teaching</a></li>
+    <li {% if current == 'publications.html' %}class='active'{% endif %}><a href="publications.html">Publications</a></li>
+    <li {% if current == 'software.html' %}class='active'{% endif %}><a href="software.html">Software</a></li>
+    <li {% if current == 'students.html' %}class='active'{% endif %}><a href="students.html">Students</a></li>
+    <li {% if current == 'other.html' %}class='active'{% endif %}><a href="other.html">Other</a></li>
+  </ul>
+</div>
+</nav>
