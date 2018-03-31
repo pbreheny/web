@@ -1,5 +1,6 @@
 _site
-img
+img/*
+!img/.dat
 misc
 publications.html
 research.html
