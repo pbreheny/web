@@ -25,7 +25,7 @@ My office is located in the [College of Public Health Building](http://maps.uiow
     '<i class="fas fa-envelope fa-2x" aria-hidden="true"></i>' + 
     '</a>');
 </script>
-<a href="BrehenyCV.pdf" class='button' title="Download CV">
+<a href="publications/BrehenyCV.pdf" class='button' title="Download CV">
   <i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i>
   </a>
 <a href="https://github.com/pbreheny" class='button' title="GitHub">
