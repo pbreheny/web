@@ -6,6 +6,10 @@ layout: default
 
 The Department of Biostatistics has a dedicated node on the Neon supercomputing cluster at the University of Iowa.  My tutorial on how to use this resource is located [here](neon).
 
+### Big data lab
+
+[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.
+
 ### SAS Macro tutorial
 
 [Here](misc/macros.pdf) is a presentation/tutorial I have given a few times on SAS Macros.
