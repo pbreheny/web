@@ -1,6 +1,8 @@
 _site
 img/*
 !img/.dat-config
+pdf/*
+!pdf/.dat-config
 misc
 publications.html
 research.html
