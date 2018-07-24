@@ -3,7 +3,8 @@ img/*
 !img/.dat-config
 pdf/*
 !pdf/.dat-config
-misc
+misc/*
+!misc/.dat-config
 publications.html
 research.html
 !pubs/cv.csv
