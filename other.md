@@ -2,13 +2,13 @@
 layout: default
 ---
 
-### Neon tutorial
+### HPC tutorial
 
-The Department of Biostatistics has a dedicated node on the Neon supercomputing cluster at the University of Iowa.  My tutorial on how to use this resource is located [here](neon).
+The Department of Biostatistics has several dedicated nodes on the High Performance Computing (HPC) cluster at the University of Iowa.  My tutorial on how to use this resource is located [here](https://iowabiostat.github.io/hpc/index.html).
 
 ### Big data lab
 
-[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.
+[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.  NOTE: Data is currently unavailable for download -- I need to resolve some data-sharing issues.  My apologies.
 
 ### SAS Macro tutorial
 
