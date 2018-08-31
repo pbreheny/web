@@ -9,6 +9,7 @@ Breheny2012	http://www.plosone.org/article/fetchObjectAttachment.action?uri=info
 Breheny2012a	http://www.omicsonline.org/2155-6180/2155-6180-3-e118.pdf					
 Breheny2015a	http://onlinelibrary.wiley.com/doi/10.1111/biom.12300/pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
 Breheny2015	pdf/group-computing.pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
+Breheny2018	http://www.mdpi.com/2571-5135/7/3/23/pdf					
 BrehenyR2011	pdf/Motulsky2010.pdf					
 BrehenyR2014	pdf/Simon2013.pdf					
 Crawford2014	http://link.springer.com/content/pdf/10.1007%2Fs10461-013-0524-y.pdf					

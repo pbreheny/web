@@ -95,6 +95,7 @@ titleMod <- function(x) {
   val <- gsub("\\\\emphIn Vivo", "<i>In Vivo</i>", val)
   val <- gsub("\\\\texttt([A-Za-z_0-9]*)", "<tt>\\1</tt>", val)
   val <- gsub("\\$([^_]*)_([^\\$]*)\\$", "\\1<sub>\\2</sub>", val)
+  val <- gsub("\\$([^\\$]*)\\$", "<i>\\1</i>", val)
   val <- gsub("---", "&mdash;", val)
   val <- gsub("--", "&ndash;", val)
   val
