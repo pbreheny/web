@@ -8,7 +8,7 @@ The Department of Biostatistics has several dedicated nodes on the High Performa
 
 ### Big data lab
 
-[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.  NOTE: Data is currently unavailable for download -- I need to resolve some data-sharing issues.  My apologies.
+[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.
 
 ### SAS Macro tutorial
 
