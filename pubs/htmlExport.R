@@ -71,8 +71,9 @@ htmlExport2 <- function(id) {
 authorMod <- function(x) {
   x <- gsub(" &", ";", x)
   x <- strsplit(x, "; ")[[1]]
-  Last <- splitleft(x, ", ")
-  First <- splitright(x, ", ")
+  s <- stringr::str_split(x, ', ', simplify=TRUE)
+  Last <- s[1]
+  First <- s[2]
   FirstList <- strsplit(First, " ")
   for (i in 1:length(First)) {
     for (j in 1:length(FirstList[[i]])) {

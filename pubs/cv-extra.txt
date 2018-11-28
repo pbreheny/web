@@ -17,7 +17,7 @@ Fardo2011	http://www.biomedcentral.com/content/pdf/1753-6561-5-S9-S28.pdf
 Gfeller2008					"Featured in <i>The Hearing Journal</i>'s ""Best of 2008"" issue.  "	http://journals.lww.com/thehearingjournal/Fulltext/2009/06000/The_Best_of_2008__Cochlear_Implants.7.aspx
 Gode-Potratz2011	http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2958.2010.07445.x/pdf					
 Heron2013	http://www.molecularbrain.com/content/pdf/1756-6606-6-49.pdf					
-Huang2016	pdf/mnet.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
+Huang2016	http://www3.stat.sinica.edu.tw/statistica/oldpdf/A26n32.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
 Huang2010u	http://www.stat.uiowa.edu/files/stat/techrep/tr402.pdf					
 Huang2012	pdf/Huang2012.pdf					
 Lee2015a	pdf/strong-rules.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
