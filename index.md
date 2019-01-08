@@ -14,7 +14,7 @@ My office is located in the [College of Public Health Building](http://maps.uiow
   Your browser does not support the audio element.
 </audio>
 <button onclick="document.getElementById('breheny').play()" title="Pronunciation of my last name">
-  <i class="fas fa-play-circle fa-2x"></i>
+  <i class="fas fa-headphones-alt fa-2x"></i>
   </button>
 <script>
   user = "patrick-breheny";
@@ -26,7 +26,7 @@ My office is located in the [College of Public Health Building](http://maps.uiow
     '</a>');
 </script>
 <a href="pdf/BrehenyCV.pdf" class='button' title="Download CV">
-  <i class="fas fa-file-pdf fa-2x" aria-hidden="true"></i>
+  <i class="fas fa-file-alt fa-2x" aria-hidden="true"></i>
   </a>
 <a href="https://github.com/pbreheny" class='button' title="GitHub">
   <i class="fab fa-github fa-2x" aria-hidden="true"></i>
