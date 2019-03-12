@@ -1,7 +1,7 @@
 Identifier	pdf	R	Reproduce	Website	featText	featLink
 Bada2015	http://pediatrics.aappublications.org/content/135/2/e383.full.pdf					
 Breheny2017	https://journal.r-project.org/archive/2017/RJ-2017-046/RJ-2017-046.pdf	http://cran.r-project.org/web/packages/visreg/index.html		http://pbreheny.github.io/visreg/		
-BrehenyLassoFDR	https://arxiv.org/pdf/1607.05636	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/lassoFDRpaper			
+Breheny2019	https://arxiv.org/pdf/1607.05636	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/lassoFDRpaper			
 Breheny2003	http://pubs.acs.org/doi/pdf/10.1021/ja0375380					
 Breheny2009	pdf/Breheny2009.pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
 Breheny2011	pdf/Breheny2011.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
