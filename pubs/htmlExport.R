@@ -31,7 +31,8 @@ htmlExport <- function(id, style=1) {
   if (!is.na(y$R) & y$R!="") val[3] <- paste0(val[3], "[<a href=\"", y$R, "\">R package</a>] ")
   if (!is.na(y$Website) & y$Website!="") val[3] <- paste0(val[3], "[<a href=\"", y$Website, "\">Homepage</a>] ")
   if (!is.na(y$Reproduce) & y$Reproduce!="") val[3] <- paste0(val[3], "[<a href=\"", y$Reproduce, "\">Reproduce</a>] ")
-
+  if (!is.na(y$App) & y$App!="") val[3] <- paste0(val[3], "[<a href=\"", y$App, "\">App</a>] ")
+  
   if (!is.na(y$featText) & y$featText!="") {
     val[3] <- paste0(val[3], "<br>", y$featText)
   }
@@ -65,6 +66,7 @@ htmlExport2 <- function(id) {
   if (!is.na(y$R) & y$R!="") val <- paste0(val, "[<a href=\"", y$R, "\">R package</a>] ")
   if (!is.na(y$Website) & y$Website!="") val <- paste0(val, "[<a href=\"", y$Website, "\">Homepage</a>] ")
   if (!is.na(y$Reproduce) & y$Reproduce!="") val <- paste0(val, "[<a href=\"", y$Reproduce, "\">Reproduce</a>] ")
+  if (!is.na(y$App) & y$App!="") val <- paste0(val, "[<a href=\"", y$App, "\">App</a>] ")
   val <- paste0(val, "</li>")
   val
 }

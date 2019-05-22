@@ -1,45 +1,46 @@
-Identifier	pdf	R	Reproduce	Website	featText	featLink
-Bada2015	http://pediatrics.aappublications.org/content/135/2/e383.full.pdf					
-Breheny2017	https://journal.r-project.org/archive/2017/RJ-2017-046/RJ-2017-046.pdf	http://cran.r-project.org/web/packages/visreg/index.html		http://pbreheny.github.io/visreg/		
-Breheny2019	https://arxiv.org/pdf/1607.05636	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/lassoFDRpaper			
-Breheny2003	http://pubs.acs.org/doi/pdf/10.1021/ja0375380					
-Breheny2009	pdf/Breheny2009.pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
-Breheny2011	pdf/Breheny2011.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
-Breheny2012	http://www.plosone.org/article/fetchObjectAttachment.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0034262&representation=PDF 					
-Breheny2012a	http://www.omicsonline.org/2155-6180/2155-6180-3-e118.pdf					
-Breheny2015a	http://onlinelibrary.wiley.com/doi/10.1111/biom.12300/pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
-Breheny2015	pdf/group-computing.pdf	http://cran.r-project.org/web/packages/grpreg/index.html				
-Breheny2018	http://www.mdpi.com/2571-5135/7/3/23/pdf					
-BrehenyR2011	pdf/Motulsky2010.pdf					
-BrehenyR2014	pdf/Simon2013.pdf					
-Crawford2014	http://link.springer.com/content/pdf/10.1007%2Fs10461-013-0524-y.pdf					
-Fardo2011	http://www.biomedcentral.com/content/pdf/1753-6561-5-S9-S28.pdf					
-Gfeller2008					"Featured in <i>The Hearing Journal</i>'s ""Best of 2008"" issue.  "	http://journals.lww.com/thehearingjournal/Fulltext/2009/06000/The_Best_of_2008__Cochlear_Implants.7.aspx
-Gode-Potratz2011	http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2958.2010.07445.x/pdf					
-Heron2013	http://www.molecularbrain.com/content/pdf/1756-6606-6-49.pdf					
-Huang2016	http://www3.stat.sinica.edu.tw/statistica/oldpdf/A26n32.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
-Huang2010u	http://www.stat.uiowa.edu/files/stat/techrep/tr402.pdf					
-Huang2012	pdf/Huang2012.pdf					
-Lee2015a	pdf/strong-rules.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html				
-Li2013	pdf/cnv-kernel.pdf					
-local-mfdr	https://arxiv.org/pdf/1809.05497	http://cran.r-project.org/web/packages/ncvreg/index.html				
-McClintock2014	http://www.jneurosci.org/content/34/47/15669.full.pdf				Featured article.  	http://www.jneurosci.org/content/34/47/i.full.pdf
-mfdr-lik	https://arxiv.org/pdf/1710.11459.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/mfdr-likelihood-paper			
-Nickell2012	http://onlinelibrary.wiley.com/doi/10.1002/cne.23052/pdf					
-Oleson2008	http://www.sciencedirect.com/science/article/pii/S0091743508003472/pdfft?md5=96169cb6c6fa85fb2ac4617272a90f3b&pid=1-s2.0-S0091743508003472-main.pdf					
-Owen2013	http://www.ajpe.org/doi/pdf/10.5688/ajpe77354					
-Pashkova2016	http://www.cell.com/cell-reports/pdf/S2211-1247(16)31204-9.pdf	https://github.com/pbreheny/deepn				
-Podzielinski2012	http://www.sciencedirect.com/science/article/pii/S009082581100792X/pdfft?md5=811501da7c1e5d9946c3dc3b46147775&pid=1-s2.0-S009082581100792X-main.pdf					
-Sanz2013	http://www.sciencedirect.com/science/article/pii/S0378113513004574/pdfft?md5=7603eb2599a1b2f029b8da98b46124d5&pid=1-s2.0-S0378113513004574-main.pdf					
-SchofieldR2014	pdf/Lunn2013.pdf					
-Scott2012	http://oae.sagepub.com/content/25/4/402.full.pdf+html					
-Smith2012	http://jcm.asm.org/content/50/6/1981.full.pdf+html					
-Smith2016	http://ajh.oxfordjournals.org/content/29/1/17.full.pdf					
-Spracklen2015	http://ajh.oxfordjournals.org/content/28/7/915.full.pdf					
-Srinivasan2012	http://chp.sagepub.com/content/17/2/96.full.pdf+html					
-Stokes2014	http://informahealthcare.com/doi/pdf/10.3109/08880018.2014.886315					
-Vanderpool2015						
-Yi2015	http://www.genetics.org/content/199/1/205.full.pdf				Featured article.  	http://www.genetics.org/content/199/1/NP.full.pdf
-Zeng2016	http://www.la-press.com/redirect_file.php?fileId=7843&filename=5904-CIN-Overlapping-Group-Logistic-Regression-with-Applications-to-Genetic-Pat.pdf&fileType=pdf	http://cran.r-project.org/web/packages/grpregOverlap/index.html				
-ZengHSSR	https://arxiv.org/pdf/1704.08742					
-ZengBigLasso	https://arxiv.org/pdf/1701.05936	https://github.com/YaohuiZeng/biglasso				
+Identifier	pdf	R	Reproduce	Website	App	featText	featLink
+Bada2015	http://pediatrics.aappublications.org/content/135/2/e383.full.pdf						
+Breheny2017	https://journal.r-project.org/archive/2017/RJ-2017-046/RJ-2017-046.pdf	http://cran.r-project.org/web/packages/visreg/index.html		http://pbreheny.github.io/visreg/			
+Breheny2019	https://arxiv.org/pdf/1607.05636	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/lassoFDRpaper				
+Breheny2003	http://pubs.acs.org/doi/pdf/10.1021/ja0375380						
+Breheny2009	pdf/Breheny2009.pdf	http://cran.r-project.org/web/packages/grpreg/index.html					
+Breheny2011	pdf/Breheny2011.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html					
+Breheny2012	http://www.plosone.org/article/fetchObjectAttachment.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0034262&representation=PDF 						
+Breheny2012a	http://www.omicsonline.org/2155-6180/2155-6180-3-e118.pdf						
+Breheny2015a	http://onlinelibrary.wiley.com/doi/10.1111/biom.12300/pdf	http://cran.r-project.org/web/packages/grpreg/index.html					
+Breheny2015	pdf/group-computing.pdf	http://cran.r-project.org/web/packages/grpreg/index.html					
+Breheny2018	http://www.mdpi.com/2571-5135/7/3/23/pdf						
+BrehenyR2011	pdf/Motulsky2010.pdf						
+BrehenyR2014	pdf/Simon2013.pdf						
+Crawford2014	http://link.springer.com/content/pdf/10.1007%2Fs10461-013-0524-y.pdf						
+Donovan2019					https://ph-shiny.iowa.uiowa.edu/pbreheny/gdm-risk-calculator/		
+Fardo2011	http://www.biomedcentral.com/content/pdf/1753-6561-5-S9-S28.pdf						
+Gfeller2008						"Featured in <i>The Hearing Journal</i>'s ""Best of 2008"" issue.  "	http://journals.lww.com/thehearingjournal/Fulltext/2009/06000/The_Best_of_2008__Cochlear_Implants.7.aspx
+Gode-Potratz2011	http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2958.2010.07445.x/pdf						
+Heron2013	http://www.molecularbrain.com/content/pdf/1756-6606-6-49.pdf						
+Huang2016	http://www3.stat.sinica.edu.tw/statistica/oldpdf/A26n32.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html					
+Huang2010u	http://www.stat.uiowa.edu/files/stat/techrep/tr402.pdf						
+Huang2012	pdf/Huang2012.pdf						
+Lee2015a	pdf/strong-rules.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html					
+Li2013	pdf/cnv-kernel.pdf						
+local-mfdr	https://arxiv.org/pdf/1809.05497	http://cran.r-project.org/web/packages/ncvreg/index.html					
+McClintock2014	http://www.jneurosci.org/content/34/47/15669.full.pdf					Featured article.  	http://www.jneurosci.org/content/34/47/i.full.pdf
+mfdr-lik	https://arxiv.org/pdf/1710.11459.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/mfdr-likelihood-paper				
+Nickell2012	http://onlinelibrary.wiley.com/doi/10.1002/cne.23052/pdf						
+Oleson2008	http://www.sciencedirect.com/science/article/pii/S0091743508003472/pdfft?md5=96169cb6c6fa85fb2ac4617272a90f3b&pid=1-s2.0-S0091743508003472-main.pdf						
+Owen2013	http://www.ajpe.org/doi/pdf/10.5688/ajpe77354						
+Pashkova2016	http://www.cell.com/cell-reports/pdf/S2211-1247(16)31204-9.pdf	https://github.com/pbreheny/deepn					
+Podzielinski2012	http://www.sciencedirect.com/science/article/pii/S009082581100792X/pdfft?md5=811501da7c1e5d9946c3dc3b46147775&pid=1-s2.0-S009082581100792X-main.pdf						
+Sanz2013	http://www.sciencedirect.com/science/article/pii/S0378113513004574/pdfft?md5=7603eb2599a1b2f029b8da98b46124d5&pid=1-s2.0-S0378113513004574-main.pdf						
+SchofieldR2014	pdf/Lunn2013.pdf						
+Scott2012	http://oae.sagepub.com/content/25/4/402.full.pdf+html						
+Smith2012	http://jcm.asm.org/content/50/6/1981.full.pdf+html						
+Smith2016	http://ajh.oxfordjournals.org/content/29/1/17.full.pdf						
+Spracklen2015	http://ajh.oxfordjournals.org/content/28/7/915.full.pdf						
+Srinivasan2012	http://chp.sagepub.com/content/17/2/96.full.pdf+html						
+Stokes2014	http://informahealthcare.com/doi/pdf/10.3109/08880018.2014.886315						
+Vanderpool2015							
+Yi2015	http://www.genetics.org/content/199/1/205.full.pdf					Featured article.  	http://www.genetics.org/content/199/1/NP.full.pdf
+Zeng2016	http://www.la-press.com/redirect_file.php?fileId=7843&filename=5904-CIN-Overlapping-Group-Logistic-Regression-with-Applications-to-Genetic-Pat.pdf&fileType=pdf	http://cran.r-project.org/web/packages/grpregOverlap/index.html					
+ZengHSSR	https://arxiv.org/pdf/1704.08742						
+ZengBigLasso	https://arxiv.org/pdf/1701.05936	https://github.com/YaohuiZeng/biglasso					
