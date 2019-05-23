@@ -78,10 +78,14 @@ authorMod <- function(x) {
   First <- s[,2]
   FirstList <- strsplit(First, " ")
   for (i in 1:length(First)) {
-    for (j in 1:length(FirstList[[i]])) {
-      FirstList[[i]][j] <- gsub("\\b(.).*", "\\1", FirstList[[i]][j])
+    if (length(FirstList[[i]]) >= 1) {
+      for (j in 1:length(FirstList[[i]])) {
+        FirstList[[i]][j] <- gsub("\\b(.).*", "\\1", FirstList[[i]][j])
+      }
+      First[i] <- paste(FirstList[[i]], collapse="")
+    } else {
+      First[i] <- ""
     }
-    First[i] <- paste(FirstList[[i]], collapse="")
   }
   n <- length(Last)
   if (n > 1) {
@@ -91,7 +95,7 @@ authorMod <- function(x) {
   } else {
     val <- paste0(Last, " ", First, ".")
   }
-  val
+  gsub(' ,', ',', val)  # To correct for rare occurrences such as missing first names
 }
 titleMod <- function(x) {
   val <- gsub("\\\\emph([^,]*),", "<i>\\1</i>,", x)

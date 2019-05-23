@@ -8,3 +8,4 @@ misc/*
 publications.html
 research.html
 !pubs/cv.csv
+pubs/*.Rout
