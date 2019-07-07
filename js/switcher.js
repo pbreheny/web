@@ -8,6 +8,21 @@ var body = document.querySelector("body"),
     body.className = "";
   }
 
-document.querySelector(".theme1").addEventListener("click", goLight, false); // Tells the first button to run the goLight function when clicked
+// Execute goLight function if button 1 is clicked
+document.querySelector(".theme1").addEventListener("click", goLight, false);
 
-document.querySelector(".theme2").addEventListener("click", goDark, false); // Tells the second button to run the goDark function when clicked
+// Execute goDark function if button 2 is clicked
+document.querySelector(".theme2").addEventListener("click", goDark, false);
+
+function myToggle() {
+  // Get the checkbox
+  var checkBox = document.getElementById("cssSwitch");
+  checkBox.addEventListener("checked", goLight, false);
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    goLight();
+  } else {
+    goDark();
+  }
+} 
