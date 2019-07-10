@@ -1,0 +1,49 @@
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin: 0px;
+  height: 120px;
+}
+#pagetitle {
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+}
+#left-header {
+  display: inline-block;
+  width: calc(100% - 109px);
+  vertical-align: top;
+}
+#logo {
+  float: right;
+}
+#switcher {
+  float:right;
+  margin: 60px 40px;
+}
+#switcher button {
+  background: transparent;
+}
+button.theme1 {
+  color: #ccc;
+}
+button.theme1:hover {
+  color: yellow;
+}
+button.theme2 {
+  color: yellow;
+}
+button.theme2:hover {
+  color: yellow;
+}
+.light button.theme1 {
+  color: yellow;
+}
+.light button.theme2 {
+  color: #ccc;
+}
+.light button.theme2:hover {
+  color: yellow;
+}
