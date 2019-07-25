@@ -13,6 +13,7 @@ Breheny2018	http://www.mdpi.com/2571-5135/7/3/23/pdf
 BrehenyR2011	pdf/Motulsky2010.pdf						
 BrehenyR2014	pdf/Simon2013.pdf						
 Crawford2014	http://link.springer.com/content/pdf/10.1007%2Fs10461-013-0524-y.pdf						
+DaiCoxCV	https://arxiv.org/pdf/1905.10432.pdf						
 Donovan2019					https://ph-shiny.iowa.uiowa.edu/pbreheny/gdm-risk-calculator/		
 Fardo2011	http://www.biomedcentral.com/content/pdf/1753-6561-5-S9-S28.pdf						
 Gfeller2008						"Featured in <i>The Hearing Journal</i>'s ""Best of 2008"" issue.  "	http://journals.lww.com/thehearingjournal/Fulltext/2009/06000/The_Best_of_2008__Cochlear_Implants.7.aspx
