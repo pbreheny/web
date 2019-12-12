@@ -16,8 +16,4 @@ The Department of Biostatistics has several dedicated nodes on the High Performa
 
 ### University of Iowa thesis template
 
-[Here](misc/uithesis.tar.gz) is a template for writing a thesis that conforms to
-University of Iowa formatting guidelines (at least, as of 2015).  Once you
-extract the files, you should be able to run `pdflatex` on `thesis.tex` to
-produce the skeleton of a thesis.  If any guidelines have changed and the style
-file needs modified, let me know.
+[Here](https://github.com/IowaBiostat/thesis-template) is a template for writing a thesis that conforms to University of Iowa formatting guidelines (at least, as of 2015).  See the README for instructions on getting started.
