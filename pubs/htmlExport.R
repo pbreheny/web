@@ -99,6 +99,7 @@ authorMod <- function(x) {
 }
 titleMod <- function(x) {
   val <- gsub("\\\\emph([^,]*),", "<i>\\1</i>,", x)
+  val <- gsub("\\\\textit([^,]*)$", "<i>\\1</i>", val)
   val <- gsub("\\\\emphIn Vivo", "<i>In Vivo</i>", val)
   val <- gsub("\\\\texttt([A-Za-z_0-9]*)", "<tt>\\1</tt>", val)
   val <- gsub("\\$([^_]*)_([^\\$]*)\\$", "\\1<sub>\\2</sub>", val)
