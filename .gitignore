@@ -10,3 +10,4 @@ research.html
 !pubs/cv.csv
 pubs/*.Rout
 .sass-cache
+.jekyll-cache
