@@ -15,7 +15,7 @@ b, strong {
 
 body {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 1.5em;
   margin: 0px auto; 
   background: url(http://myweb.uiowa.edu/pbreheny/img/bg.png);
 }
@@ -126,4 +126,75 @@ svg-icon svg {
   justify-content: center;
   flex-direction: column;
   height: 100px;
+}
+%link-button {
+  border-style: solid;
+  color: #fff;
+  padding: 0px 4px 0px 4px;
+  border-style: solid;
+  border-radius: 0.2rem;
+  font-size: small;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  height: 1.5em;
+}
+%link-button-hover {
+  background-color: #fff;
+  fill: #fff;
+  text-decoration: none;  
+}
+.journal {
+  @extend %link-button;
+  background-color: #00a7e6;
+  border-color: #00a7e6;
+}
+.journal:hover {
+  @extend %link-button-hover;
+  color: #00a7e6;
+}
+.pdf {
+  @extend %link-button;
+  background-color: #e600a7;
+  border-color: #e600a7;
+}
+.pdf:hover {
+  @extend %link-button-hover;
+  color: #e600a7;
+}
+.R {
+  @extend %link-button;
+  background-color: #FF4E37;
+  border-color: #FF4E37;
+}
+.R:hover {
+  @extend %link-button-hover;
+  color: #FF4E37;
+}
+.reproduce {
+  @extend %link-button;
+  background-color: #00B500;
+  border-color: #00B500;
+}
+.reproduce:hover {
+  @extend %link-button-hover;
+  color: #00B500;
+}
+.website {
+  @extend %link-button;
+  background-color: #a700e6;
+  border-color: #a700e6;
+}
+.website:hover {
+  @extend %link-button-hover;
+  color: #a700e6;
+}
+.app {
+  @extend %link-button;
+  background-color: #e6a700;
+  border-color: #e6a700;
+}
+.app:hover {
+  @extend %link-button-hover;
+  color: #e6a700;
 }

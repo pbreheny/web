@@ -26,18 +26,18 @@ htmlExport <- function(id, style=1) {
     }
   }
 
-  if (x$URL!="") val[3] <- paste0(val[3], "[<a href=\"", x$URL, "\">link</a>] ")
-  if (!is.na(y$pdf) & y$pdf!="") val[3] <- paste0(val[3], "[<a href=\"", y$pdf, "\">pdf</a>] ")
-  if (!is.na(y$R) & y$R!="") val[3] <- paste0(val[3], "[<a href=\"", y$R, "\">R package</a>] ")
-  if (!is.na(y$Website) & y$Website!="") val[3] <- paste0(val[3], "[<a href=\"", y$Website, "\">Homepage</a>] ")
-  if (!is.na(y$Reproduce) & y$Reproduce!="") val[3] <- paste0(val[3], "[<a href=\"", y$Reproduce, "\">Reproduce</a>] ")
-  if (!is.na(y$App) & y$App!="") val[3] <- paste0(val[3], "[<a href=\"", y$App, "\">App</a>] ")
+  if (x$URL!="") val[3] <- paste0(val[3], '<a href="', x$URL, '"> <span class="journal">Journal</span></a>')
+  if (!is.na(y$pdf) & y$pdf!="") val[3] <- paste0(val[3], '<a href="', y$pdf, '"> <span class="pdf">PDF</span></a>')
+  if (!is.na(y$R) & y$R!="") val[3] <- paste0(val[3], '<a href="', y$R, '"> <span class="R">R</span></a>')
+  if (!is.na(y$Website) & y$Website!="") val[3] <- paste0(val[3], '<a href="', y$Website, '"> <span class="website">Website</span></a>')
+  if (!is.na(y$Reproduce) & y$Reproduce!="") val[3] <- paste0(val[3], '<a href="', y$Reproduce, '"> <span class="reproduce">Reproduce</span></a>')
+  if (!is.na(y$App) & y$App!="") val[3] <- paste0(val[3], '<a href="', y$App, '"> <span class="app">App</span></a>')
   
   if (!is.na(y$featText) & y$featText!="") {
     val[3] <- paste0(val[3], "<br>", y$featText)
   }
   if (!is.na(y$featLink) & y$featLink!="") {
-    val[3] <- paste0(val[3], "[<a href=\"", y$featLink, "\">link</a>] ")
+    val[3] <- paste0(val[3], '<a href="', x$URL, '"> <span class="journal">Link</span></a>')
   }
 
   val[3] <- paste0(val[3], "</h6>")
