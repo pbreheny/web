@@ -14,5 +14,5 @@ render <- function(infile, outfile) {
     post <- content[(i+1):length(content)]
     content <- c(pre, htmlExport(ID), post)
   }
-  writeLines(content, con="../publications.html")
+  writeLines(content, con=outfile)
 }
