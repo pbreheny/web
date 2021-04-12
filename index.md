@@ -2,7 +2,7 @@
 layout: img-left
 ---
 
-Welcome to my home page.  I am a professor in the [Department of Biostatistics](http://www.public-health.uiowa.edu/biostat/) at the University of Iowa, and a member of the [genetics cluster](https://medicine.uiowa.edu/geneticscluster/current-cluster-faculty-members) here at the university.  I live in the Coralville/Iowa City area with my wife Wyndee and daughters Nyla and Celia.  Prior to this I was a professor at the University of Kentucky.
+Welcome to my home page.  I am a professor in the [Department of Biostatistics](http://www.public-health.uiowa.edu/biostat/) at the University of Iowa, and a member of the [genetics cluster](https://medicine.uiowa.edu/geneticscluster/current-cluster-faculty-members) here at the university.  I live in the Coralville/Iowa City area with my wife Wyndee and daughters Nyla and Penelope.  Prior to this I was a professor at the University of Kentucky.
 
 My office is located in the [College of Public Health Building](http://maps.uiowa.edu/cphb), where the photo on the left was taken.
 
