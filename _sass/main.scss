@@ -17,11 +17,15 @@ body {
   font-size: 16px;
   line-height: 1.5em;
   margin: 0px auto; 
-  background: url(http://myweb.uiowa.edu/pbreheny/img/bg.png);
+  background: url(https://myweb.uiowa.edu/pbreheny/img/bg.png);
 }
 
 p {
   padding-bottom: 12px;
+}
+
+blockquote {
+  margin: 0 40px;
 }
 
 .course{
