@@ -2,42 +2,31 @@
 layout: default
 ---
 
-<!-- <p><i class="fas fa-question fa-4x student-img"></i></p> -->
+{% include start-list.html title="Current students" %}
 
-<div class='student-list'>
-  <div class='student-header'>
-    Current students
-  </div>
-  <div class='student'>
-    <div class='student-pic'>
-      <img class='student-img' src="img/chuyi-wang.jpg">
-    </div>
-    <div class='student-info'>
-      Chuyi Wang
-    </div>
-  </div>
-  <div class='student'>
-    <div class='student-pic'>
-      <img class='student-img' src="img/collin-nolte.jpg">
-    </div>
-    <div class='student-info'>
-      Collin Nolte
-    </div>
-  </div>
-</div>
+{% include start-student.html img="img/collin-nolte.jpg" %}
+Collin Nolte
+{% include end-student.html %}
 
-<div class='student-list'>
-  <div class='student-header'>
-    Former students
-  </div>
-  <div class='student'>
+{% include end-list.html %}
+
+
+{% include start-list.html title="Former students" %}
+
+{% include start-student.html img="img/chuyi-wang.jpg" %}
+Chuyi Wang  
+Liberty Mutual Insurance  
+Feature screening rules and algorithms for efficient optimization of sparse regression models (2021)
+{% include end-student.html %}
+
+<div class='student'>
     <div class='student-pic'>
       <img class='student-img' src="img/anna-reisetter.jpg">
     </div>
     <div class='student-info'>
       Anna Reisetter<br>
       Eli Lilly and Company<br>
-      Penalized Linear Mixed Models for Structured Genetic Data (2021)
+      Penalized linear mixed models for structured genetic data (2021)
     </div>
   </div>
   <div class='student'>
@@ -100,4 +89,4 @@ layout: default
       Genetic association testing of copy number variation (2014)
     </div>
   </div>
-</div>
+{% include end-list.html %}
