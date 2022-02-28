@@ -41,6 +41,7 @@ Spracklen2015	http://ajh.oxfordjournals.org/content/28/7/915.full.pdf
 Srinivasan2012	http://chp.sagepub.com/content/17/2/96.full.pdf+html						
 Stokes2014	http://informahealthcare.com/doi/pdf/10.3109/08880018.2014.886315						
 Vanderpool2015							
+Wang2022		http://cran.r-project.org/web/packages/biglasso/index.html					
 Yi2015	http://www.genetics.org/content/199/1/205.full.pdf					Featured article.  	http://www.genetics.org/content/199/1/NP.full.pdf
 Zeng2016	http://www.la-press.com/redirect_file.php?fileId=7843&filename=5904-CIN-Overlapping-Group-Logistic-Regression-with-Applications-to-Genetic-Pat.pdf&fileType=pdf	http://cran.r-project.org/web/packages/grpregOverlap/index.html					
 Zeng2021	https://arxiv.org/pdf/1704.08742		https://github.com/YaohuiZeng/HSSR-paper-code				
