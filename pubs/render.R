@@ -1,5 +1,4 @@
-# Note: Must have D1, D2 in global env
-render <- function(infile, outfile) {
+render <- function(infile, outfile, DT) {
   content <- readLines(infile)
   if (content[length(content)]!="") {
     writeLines(paste(infile, "must end with blank line"), con="/dev/tty")
@@ -12,7 +11,8 @@ render <- function(infile, outfile) {
     ID <- gsub("_", "", content[i])
     pre <- content[1:(i-1)]
     post <- content[(i+1):length(content)]
-    content <- c(pre, htmlExport(ID), post)
+    if (!(ID %in% DT$Identifier)) stop(paste0('ID not found: ', ID), call.=FALSE)
+    content <- c(pre, htmlExport(DT[ID]), post)
   }
   writeLines(content, con=outfile)
 }

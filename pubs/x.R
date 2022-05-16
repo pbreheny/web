@@ -1,6 +1,7 @@
+library(data.table)
 source("htmlExport.R")
 source("render.R")
-D1 <- read.csv("cv.csv", stringsAsFactors=FALSE)
-D2 <- read.delim("cv-extra.txt", stringsAsFactors=FALSE)
-render("pubs.html", "../publications.html")
-render("res.html", "../research.html")
+
+DT <- merge(fread("cv.csv"), fread("cv-extra.txt"), by='Identifier', all.x=TRUE)
+render("pubs.html", "../publications.html", DT)
+render("res.html", "../research.html", DT)

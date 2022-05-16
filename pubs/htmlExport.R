@@ -1,15 +1,8 @@
-htmlExport <- function(id, style=1) {
+htmlExport <- function(x, style=1) {
   if (style==2) {
-    val <- htmlExport2(id)
+    val <- htmlExport2(x)
     return(val)
   }
-  x <- subset(D1, Identifier==id)
-  if (!nrow(x)) {
-    writeLines(paste("ID not found:", id), con="/dev/tty")
-    stop()
-  }
-  y <- subset(D2, Identifier==id)
-  if (nrow(y)==0) y[1,] <- NA
   val <- character(4)
   val[1] <- paste0("<h3>", titleMod(x$Title), "</h3>")
   val[2] <- paste0("<h5>", authorMod(x$Author), "</h5>")
@@ -27,31 +20,23 @@ htmlExport <- function(id, style=1) {
   }
 
   if (x$URL!="") val[3] <- paste0(val[3], '<a href="', x$URL, '"> <span class="journal">Journal</span></a>')
-  if (!is.na(y$pdf) & y$pdf!="") val[3] <- paste0(val[3], '<a href="', y$pdf, '"> <span class="pdf">PDF</span></a>')
-  if (!is.na(y$R) & y$R!="") val[3] <- paste0(val[3], '<a href="', y$R, '"> <span class="R">R</span></a>')
-  if (!is.na(y$Website) & y$Website!="") val[3] <- paste0(val[3], '<a href="', y$Website, '"> <span class="website">Website</span></a>')
-  if (!is.na(y$Reproduce) & y$Reproduce!="") val[3] <- paste0(val[3], '<a href="', y$Reproduce, '"> <span class="reproduce">Reproduce</span></a>')
-  if (!is.na(y$App) & y$App!="") val[3] <- paste0(val[3], '<a href="', y$App, '"> <span class="app">App</span></a>')
-  
-  if (!is.na(y$featText) & y$featText!="") {
-    val[3] <- paste0(val[3], "<br>", y$featText)
+  if (!is.na(x$pdf) & x$pdf!="") val[3] <- paste0(val[3], '<a href="', x$pdf, '"> <span class="pdf">PDF</span></a>')
+  if (!is.na(x$R) & x$R!="") val[3] <- paste0(val[3], '<a href="', x$R, '"> <span class="R">R</span></a>')
+  if (!is.na(x$Website) & x$Website!="") val[3] <- paste0(val[3], '<a href="', x$Website, '"> <span class="website">Website</span></a>')
+  if (!is.na(x$Reproduce) & x$Reproduce!="") val[3] <- paste0(val[3], '<a href="', x$Reproduce, '"> <span class="reproduce">Reproduce</span></a>')
+  if (!is.na(x$App) & x$App!="") val[3] <- paste0(val[3], '<a href="', x$App, '"> <span class="app">App</span></a>')
+
+  if (!is.na(x$featText) & x$featText!="") {
+    val[3] <- paste0(val[3], "<br>", x$featText)
   }
-  if (!is.na(y$featLink) & y$featLink!="") {
+  if (!is.na(x$featLink) & x$featLink!="") {
     val[3] <- paste0(val[3], '<a href="', x$URL, '"> <span class="journal">Link</span></a>')
   }
 
   val[3] <- paste0(val[3], "</h6>")
   val
 }
-htmlExport2 <- function(id) {
-  x <- subset(D1, Identifier==id)
-  if (!nrow(x)) {
-    writeLines(paste("ID not found:", id), con="/dev/tty")
-    stop()
-  }
-  y <- subset(D2, Identifier==id)
-  if (nrow(y)==0) y[1,] <- NA
-
+htmlExport2 <- function(x) {
   val <- paste0("<li>", authorMod(x$Author), " (", x$Year, ").  ", titleMod(x$Title))
   z <- titleMod(x$Title)
   if (substr(z, nchar(z), nchar(z))!="?") val <- paste0(val, ".")
@@ -62,11 +47,11 @@ htmlExport2 <- function(id) {
     val <- paste0(val, ".  ")
   }
   if (x$URL!="") val <- paste0(val, "[<a href=\"", x$URL, "\">link</a>] ")
-  if (!is.na(y$pdf) & y$pdf!="") val <- paste0(val, "[<a href=\"", y$pdf, "\">pdf</a>] ")
-  if (!is.na(y$R) & y$R!="") val <- paste0(val, "[<a href=\"", y$R, "\">R package</a>] ")
-  if (!is.na(y$Website) & y$Website!="") val <- paste0(val, "[<a href=\"", y$Website, "\">Homepage</a>] ")
-  if (!is.na(y$Reproduce) & y$Reproduce!="") val <- paste0(val, "[<a href=\"", y$Reproduce, "\">Reproduce</a>] ")
-  if (!is.na(y$App) & y$App!="") val <- paste0(val, "[<a href=\"", y$App, "\">App</a>] ")
+  if (!is.na(x$pdf) & x$pdf!="") val <- paste0(val, "[<a href=\"", x$pdf, "\">pdf</a>] ")
+  if (!is.na(x$R) & x$R!="") val <- paste0(val, "[<a href=\"", x$R, "\">R package</a>] ")
+  if (!is.na(x$Website) & x$Website!="") val <- paste0(val, "[<a href=\"", x$Website, "\">Homepage</a>] ")
+  if (!is.na(x$Reproduce) & x$Reproduce!="") val <- paste0(val, "[<a href=\"", x$Reproduce, "\">Reproduce</a>] ")
+  if (!is.na(x$App) & x$App!="") val <- paste0(val, "[<a href=\"", x$App, "\">App</a>] ")
   val <- paste0(val, "</li>")
   val
 }
