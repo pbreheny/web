@@ -26,7 +26,7 @@ My office is located in the [College of Public Health Building](http://maps.uiow
     '</a>');
 </script>
 <a href="pdf/BrehenyCV.pdf" class='button' title="Download CV">
-  <i class="fas fa-file-alt fa-2x" aria-hidden="true"></i>
+<img src="img/cv.svg" width="32" height="32" style="vertical-align:sub;">
   </a>
 <a href="https://github.com/pbreheny" class='button' title="GitHub">
   <i class="fab fa-github fa-2x" aria-hidden="true"></i>
@@ -35,6 +35,4 @@ My office is located in the [College of Public Health Building](http://maps.uiow
   <i class="fas fa-graduation-cap fa-2x" aria-hidden="true"></i>
   </a>
 <span class="stretch"></span>
-
 </div>
-
