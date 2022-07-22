@@ -6,6 +6,10 @@ layout: default
 
 The Department of Biostatistics has several dedicated nodes on the High Performance Computing (HPC) cluster at the University of Iowa.  My tutorial on how to use this resource is located [here](https://iowabiostat.github.io/hpc/index.html).
 
+### GWAS tutorial
+
+[Here](https://pbreheny.github.io/adv-gwas-tutorial/) is a link to a hands-on tutorial for carrying out genome-wide association studies (GWAS) using R. This has been co-developed by myself and several of my graduate students over the years. Current status: there's enough here to be useful, for sure, but definitely still a work in progress in a state of ongoing development.
+
 ### Big data lab
 
 [Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.

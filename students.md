@@ -16,6 +16,10 @@ Yoon Joo Cho
 Tabitha Peter
 {% include end-student.html %}
 
+{% include start-student.html img="img/yujing-lu.jpg" %}
+Yujing Lu
+{% include end-student.html %}
+
 {% include end-list.html %}
 
 
@@ -29,7 +33,7 @@ Feature screening rules and algorithms for efficient optimization of sparse regr
 
 {% include start-student.html img="img/anna-reisetter.jpg" %}
 Anna Reisetter  
-Eli Lilly and Company  
+23andMe  
 Penalized linear mixed models for structured genetic data (2021)
 {% include end-student.html %}
 
