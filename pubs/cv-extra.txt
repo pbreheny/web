@@ -24,7 +24,7 @@ Huang2010u	http://www.stat.uiowa.edu/files/stat/techrep/tr402.pdf
 Huang2012	pdf/Huang2012.pdf						
 Lee2015a	pdf/strong-rules.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html					
 Li2013	pdf/cnv-kernel.pdf						
-local-mfdr	https://arxiv.org/pdf/1809.05497	http://cran.r-project.org/web/packages/ncvreg/index.html					
+Miller2023	https://arxiv.org/pdf/1809.05497	http://cran.r-project.org/web/packages/ncvreg/index.html					
 McClintock2014	http://www.jneurosci.org/content/34/47/15669.full.pdf					Featured article.  	http://www.jneurosci.org/content/34/47/i.full.pdf
 Miller2019	https://arxiv.org/pdf/1710.11459.pdf	http://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/mfdr-likelihood-paper				
 Nickell2012	http://onlinelibrary.wiley.com/doi/10.1002/cne.23052/pdf						
