@@ -1,10 +1,7 @@
 _site
-img/*
-!img/.dat-config
-pdf/*
-!pdf/.dat-config
-misc/*
-!misc/.dat-config
+img/?*.*
+pdf/*.pdf
+misc/?*.*
 publications.html
 research.html
 !pubs/cv.csv
