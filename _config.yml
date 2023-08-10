@@ -1,7 +1,7 @@
 # Site settings
 title: "Patrick Breheny"
 baseurl: ""
-url: "http://myweb.uiowa.edu/pbreheny"
+url: "https://myweb.uiowa.edu/pbreheny"
 
 # Build settings
 markdown: kramdown
