@@ -2,9 +2,16 @@
 layout: default
 ---
 
-### HPC tutorial
+### Biostatistics resources
 
-The Department of Biostatistics has several dedicated nodes on the High Performance Computing (HPC) cluster at the University of Iowa.  My tutorial on how to use this resource is located [here](https://iowabiostat.github.io/hpc/index.html).
+There are many useful projects over at our department's [Biostatistics Resources](https://iowabiostat.github.io/) page, including:
+
+* [HPC tutorial](https://iowabiostat.github.io/hpc/index.html): A hands-on tutorial for learning how to use the high-performance computing (HPC) resources at the University of Iowa.
+* [Math review](https://iowabiostat.github.io/math-review/index.html): A guide intended to review of fundamental math concepts for students who will be starting an MS or PhD program in biostatistics.
+* [Data sets](https://iowabiostat.github.io/data-sets/): A collection of data sets intended to be used for teaching or for illustrating methodology on real data.
+* [Thesis template](https://github.com/IowaBiostat/thesis-template): A template for writing a LaTeX thesis that conforms to University of Iowa formatting guidelines.
+
+and more.
 
 ### GWAS tutorial
 
@@ -17,7 +24,3 @@ The Department of Biostatistics has several dedicated nodes on the High Performa
 ### SAS Macro tutorial
 
 [Here](misc/macros.pdf) is a presentation/tutorial I have given a few times on SAS Macros.
-
-### University of Iowa thesis template
-
-[Here](https://github.com/IowaBiostat/thesis-template) is a template for writing a thesis that conforms to University of Iowa formatting guidelines (at least, as of 2015).  See the README for instructions on getting started.
