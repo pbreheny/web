@@ -5,7 +5,7 @@ title: Minimal reproducible examples
 
 ### Minimal reproducible examples
 
-When contacting someone (this applies to anyone: a professor, colleague, the author of a package, etc.) about a coding question/error/problem, it is important to provide a minimal reproducible example of the problem.  This means that the person reading your question can reproduce what you are seeing.  Without the ability to reproduce the context in which the error arises, it is typically impossible to identify what is causing the problem. In my experience it is typically the case that produces the error is completely fine -- the problem is introduced by an earlier line, even though it doesn't become an actual system error until later.
+When contacting someone (this applies to anyone: a professor, colleague, the author of a package, etc.) about a coding question/error/problem, it is important to provide a minimal reproducible example of the problem. This means that the person reading your question can reproduce what you are seeing. Without the ability to reproduce the context in which the error arises, it is typically impossible to identify what is causing the problem. You may be sending code that is perfectly fine -- the problem is introduced by an earlier line -- and it is impossible for anyone to debug this (this, in fact, happens *constantly* in my experience).
 
 A minimal reproducible example consists of two basic components:
 
