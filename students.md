@@ -2,7 +2,8 @@
 layout: default
 ---
 
-{% include start-list.html title="Current students" %}
+Current students
+{: .text-center .fw-light .fs-3}
 
 {% include start-student.html img="img/yoon-cho.jpg" %}
 Yoon Joo Cho
@@ -20,10 +21,8 @@ Yujing Lu
 Logan Harris
 {% include end-student.html %}
 
-{% include end-list.html %}
-
-
-{% include start-list.html title="Former students" %}
+Former students
+{: .text-center .fw-light .fs-3}
 
 {% include start-student.html img="img/collin-nolte.jpg" %}
 Collin Nolte  
@@ -78,5 +77,3 @@ Yinglei Li
 Janssen: Pharmaceutical Companies of Johnson and Johnson  
 Genetic association testing of copy number variation (2014)
 {% include end-student.html %}
-
-{% include end-list.html %}

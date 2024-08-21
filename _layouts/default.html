@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 
   {% include head.html %}
 
@@ -8,16 +8,16 @@
     {% include header.html %}
     {% include menu.html %}
 
-    <div class="container">
-    <main>
+    <div class="container-lg">
+        <div class="main-content">
 
-      {{ content }}
+          {{ content }}
 
-    </main>
+        </div>
     </div>
 
-    <script  src="js/switcher.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
   </body>
 
 </html>

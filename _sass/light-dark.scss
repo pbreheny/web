@@ -1,8 +1,8 @@
-main {
-  background: #333;
+.main-content {
+  background: #2a2a2a;
   color: #ccc;
 }
-.light main {
+.light main-content {
   background: #eee;
   color: #000;
 }
@@ -24,6 +24,7 @@ a:hover {
 }
 button {
   color: #ccc;
+  border: 0px;
   background: transparent;
 }
 .light button {
@@ -33,19 +34,9 @@ button {
   color: #008dff;
 }
 
-// h1, h2 appear only in header
-h1, h1 a, h1 a:hover {
+h1, h1 a, h1 a:hover, h2, h2 a, h2 a:hover {
   color: #ddd;
-  font-weight: 300;
-  margin-top: 30px;
-  padding-bottom: 10px;
 }
-h2{
-  color: #ddd;
-  font-weight: 300;
-  font-size: 16px;
-}
-
 h3 {
   margin: 0px;
   color: #ccc;

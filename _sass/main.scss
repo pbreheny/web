@@ -1,140 +1,48 @@
-* {
-  border:0;
-  margin: 0 auto;
-  padding:0;
-  outline:none;
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  transition: all .3s;
-  box-sizing: border-box;
+:root {
+  --bs-font-family: Lato, sans-serif;
+  --bs-body-font-family: Lato, sans-serif;
 }
 
-b, strong {
-  font-weight: 400;
+.table {
+  --bs-table-color: var(--bs-body-color);
 }
 
 body {
-  font-size: 16px;
-  line-height: 1.5em;
-  margin: 0px auto; 
   background: url(https://myweb.uiowa.edu/pbreheny/img/bg.png);
 }
 
-p {
-  padding-bottom: 12px;
+.header {
+  font-size: 30px;
+  font-weight: lighter;
 }
 
-blockquote {
-  margin: 0 40px;
+.container-lg {
+  max-width: 960px;
 }
 
-.course{
-  font-weight: normal;
-  text-align: left;
-  font-size: 18px;
-  line-height:1em;
-  display: block;
-  padding-top: 30px;
-}
-
-main {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  max-width: 1080px;
-  padding: 30px;
+.main-content {
   border-radius: 10px;
-  overflow: hidden;
-  position: relative;
+  padding: 30px;
 }
-.container {
-  max-width: 940px;
-  min-width: 840px;
-  margin-left: auto;
-  margin-right: auto;
-}
-.button-container {
-  text-align: justify;
-  width: 320px;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  margin-left: -160px;
-}
-.stretch {
-  width: 100%;
-  display: inline-block;
-  font-size: 0;
-  line-height: 0
-}
-.ctable, .ctable td, .ctable th{
-  font-size:100%;
-}
-ul {margin-left: 20px;}
-li {padding: 2px;}
-.leftbox {float: left; width: 440px;}
-.rightbox {float: right; width: 440px;}
-.semester {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-img.center {
-  margin-left: auto;
-  margin-right: auto;
-  display: block
-}
-img.right {
-  float: right;
-  margin-left: 30px;
-}
-img.left {
-  float: left;
-  margin-right: 30px;
-}
+
 iframe {
   display:block
-}
-svg-icon svg {
-  height:16px;
 }
 .student-list {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 }
-.student {
-  overflow: hidden;
-  padding: 5px 0;
-}
-.student-header {
-  text-align: center;
-  font-size: 20px;
-  font-weight: normal;
-}
 .student-img {
   height: 100px;
   width: 100%;
   border-radius: 50%;
 }
-.student-pic {
-  float: left;
-  height: 100px;
-  width: 100px;
-  display: inline-block;
-  text-align: center
-}
-.student-info {
-  float: left;
-  padding-left: 30px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 100px;
-}
 %link-button {
   border-style: solid;
   color: #fff;
   padding: 4px;
+  border: 0px;
   border-style: solid;
   border-radius: 0.2rem;
   font-size: small;
