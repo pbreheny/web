@@ -2,7 +2,12 @@
   padding: 0px;
 }
 
+.navbar-collapse {
+  justify-content: center;
+}
+
 .navbar-nav .nav-link {
+  margin: 0 auto;
   position: relative;
   color: #BABABA;
   text-decoration: none;
