@@ -3,7 +3,7 @@ img/?*.*
 pdf/*.pdf
 misc/?*.*
 publications.html
-research.html
+research.md
 !pubs/cv.csv
 pubs/*.Rout
 .sass-cache
