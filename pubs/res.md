@@ -8,9 +8,9 @@ My research focuses on the analysis of high-dimensional data, particularly those
 
 Penalized regression is an attractive methodology for dealing with high-dimensional data where classical likelihood approaches to modeling break down.  However, its widespread adoption has been hindered by a lack of inferential tools.  In particular, penalized regression is very useful for variable selection, but how confident should one be about those selections?  How many of those selections would likely have occurred by chance alone?  The papers below represent my ongoing work to estimate false discovery rates for penalized regression models.
 
-_Breheny2019
-_Miller2019
-_Miller2023
+* _Breheny2019
+* _Miller2019
+* _Miller2023
 
 # Nonconvex penalties
 
