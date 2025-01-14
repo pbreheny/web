@@ -5,9 +5,9 @@ md_export <- function(x) {
     info <- "In submission. "
   } else {
     if (!is.na(x$Volume)) {
-      vol <- str_glue(', **{x$Volume}**: {pagesMod(x$Pages)}. ')
+      vol <- str_glue('**{x$Volume}**: {pagesMod(x$Pages)}. ')
     } else {
-      vol <- ', to appear. '
+      vol <- 'to appear. '
     }
     info <- str_glue('*{journalMod(x$Journal)}*, {vol}')
   }
@@ -19,33 +19,20 @@ md_export <- function(x) {
   if (!is.na(x$Reproduce) & x$Reproduce!="") info <- info + str_glue('<a href="{x$Reproduce}"> <span class="reproduce">Reproduce</span></a>')
   if (!is.na(x$App) & x$App!="") info <- info + str_glue('<a href="{x$App}"> <span class="app">App</span></a>')
 
-  if (!is.na(x$featText) & x$featText!="") info <- info + str_glue('\n{x$featText} ')
-  if (!is.na(x$featLink) & x$featLink!="") info <- info + str_glue('<a href="{x$URL}"> <span class="journal">Link</span></a>')
-
-  str_glue('
-* ##### {titleMod(x$Title)}
+  # Format output
+  out <- str_glue('
+* ###### {titleMod(x$Title)}
   ###### {authorMod(x$Author)}
   ###### {info}')
-}
-htmlExport2 <- function(x) {
-  val <- paste0("<li>", authorMod(x$Author), " (", x$Year, ").  ", titleMod(x$Title))
-  z <- titleMod(x$Title)
-  if (substr(z, nchar(z), nchar(z))!="?") val <- paste0(val, ".")
-  val <- paste0(val, "  <i>", journalMod(x$Journal), "</i>")
-  if (!is.na(x$Volume)) {
-    val <- paste0(val, ", <b>", x$Volume, "</b>: ", pagesMod(x$Pages), ".  ")
-  } else if (x$Journal!="") {
-    val <- paste0(val, ".  ")
+  if (!is.na(x$featText) & x$featText!="") {
+    out <- str_glue('{out}
+  ###### {x$featText}')
+    if (!is.na(x$featLink) & x$featLink!="") out <- out + str_glue('<a href="{x$URL}"> <span class="journal">Link</span></a>')
+  } else {
+    out
   }
-  if (x$URL!="") val <- paste0(val, "[<a href=\"", x$URL, "\">link</a>] ")
-  if (!is.na(x$pdf) & x$pdf!="") val <- paste0(val, "[<a href=\"", x$pdf, "\">pdf</a>] ")
-  if (!is.na(x$R) & x$R!="") val <- paste0(val, "[<a href=\"", x$R, "\">R package</a>] ")
-  if (!is.na(x$Website) & x$Website!="") val <- paste0(val, "[<a href=\"", x$Website, "\">Homepage</a>] ")
-  if (!is.na(x$Reproduce) & x$Reproduce!="") val <- paste0(val, "[<a href=\"", x$Reproduce, "\">Reproduce</a>] ")
-  if (!is.na(x$App) & x$App!="") val <- paste0(val, "[<a href=\"", x$App, "\">App</a>] ")
-  val <- paste0(val, "</li>")
-  val
 }
+
 authorMod <- function(x) {
   x <- gsub(" &", ";", x)
   x <- strsplit(x, "; ")[[1]]

@@ -1,8 +1,9 @@
 _site
+*.rout
 img/?*.*
 pdf/*.pdf
 misc/?*.*
-publications.html
+publications.md
 research.md
 !pubs/cv.csv
 pubs/*.Rout

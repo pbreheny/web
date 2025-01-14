@@ -2,23 +2,26 @@
 layout: default
 ---
 
-<p>See also: <a href="https://scholar.google.com/citations?user=cuSa8qUAAAAJ">Google scholar</a></p>
+See also: [Google Scholar](https://scholar.google.com/citations?user=cuSa8qUAAAAJ)
 
-<p><a href="research.html">See here for only the more technical/statistical/methodological publications</a></p>
+[See here for only the more technical/statistical/methodological publications](research.html)
 
-<p class="year">2024</p>
+2024
+{: .text-center .fw-light .fs-3}
 
 _Dai2024
 _Vaughn2024
 
-<p class="year">2023</p>
+2023
+{: .text-center .fw-light .fs-3}
 
 _Miller2023
 _Kohlmeyer2023
 _Ziogas2023
 _Thiel2023
 
-<p class="year">2022</p>
+2022
+{: .text-center .fw-light .fs-3}
 
 _Wang2022
 _Kohlmeyer2022
@@ -26,7 +29,8 @@ _Anand2022
 _Anand2022a
 _Anand2022b
 
-<p class="year">2021</p>
+2021
+{: .text-center .fw-light .fs-3}
 
 _Reisetter2021
 _Zeng2021
@@ -37,7 +41,8 @@ _Maharjan2021
 _Scott2021
 _Jasper2021
 
-<p class="year">2020</p>
+2020
+{: .text-center .fw-light .fs-3}
 
 _Wang2020
 _Han2020
@@ -54,7 +59,8 @@ _Wilson2020
 _Xiao2020
 _Yong2020
 
-<p class="year">2019</p>
+2019
+{: .text-center .fw-light .fs-3}
 
 _Breheny2019
 _Miller2019
@@ -62,7 +68,8 @@ _Smith2019
 _Donovan2019
 _Scott2019
 
-<p class="year">2018</p>
+2018
+{: .text-center .fw-light .fs-3}
 
 _Breheny2018
 _Zhang2018
@@ -71,7 +78,8 @@ _Donovan2018
 _Smith2018
 _Keck2018
 
-<p class="year">2017</p>
+2017
+{: .text-center .fw-light .fs-3}
 
 _Breheny2017
 _Chau2017
@@ -80,7 +88,8 @@ _Spracklen2017
 _Schafer2017
 _Graham2017
 
-<p class="year">2016</p>
+2016
+{: .text-center .fw-light .fs-3}
 
 _Huang2016
 _Zeng2016
@@ -89,7 +98,8 @@ _Pashkova2016
 _Hill-Burns2016
 _Smith2016
 
-<p class="year">2015</p>
+2015
+{: .text-center .fw-light .fs-3}
 
 _Lee2015a
 _Breheny2015a
@@ -102,7 +112,8 @@ _Hovey2015
 _Bada2015
 _Laham2015
 
-<p class="year">2014</p>
+2014
+{: .text-center .fw-light .fs-3}
 
 _McClintock2014
 _Campos2014
@@ -112,14 +123,16 @@ _Crawford2014
 _BrehenyR2014
 _SchofieldR2014
 
-<p class="year">2013</p>
+2013
+{: .text-center .fw-light .fs-3}
 
 _Li2013
 _Heron2013
 _Sanz2013
 _Owen2013
 
-<p class="year">2012</p>
+2012
+{: .text-center .fw-light .fs-3}
 
 _Breheny2012
 _Huang2012
@@ -130,23 +143,27 @@ _Podzielinski2012
 _Scott2012
 _Srinivasan2012
 
-<p class="year">2011</h6>
+2011
+{: .text-center .fw-light .fs-3}
 
 _Breheny2011
 _Fardo2011
 _Gode-Potratz2011
 _BrehenyR2011
 
-<p class="year">2009</h6>
+2009
+{: .text-center .fw-light .fs-3}
 
 _Breheny2009
 
-<p class="year">2008</h6>
+2008
+{: .text-center .fw-light .fs-3}
 
 _Oleson2008
 _Gfeller2008
 
-<p class="year">2003</p>
+2003
+{: .text-center .fw-light .fs-3}
 
 _Breheny2003
 

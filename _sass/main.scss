@@ -11,6 +11,20 @@ body {
   background: url(https://myweb.uiowa.edu/pbreheny/img/bg.png);
 }
 
+.h1, h1 {
+  font-size: calc(1.3rem + .6vw);
+  font-weight: bold;
+}
+
+.h2, h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.h5, h5 {
+  font-size: 1.1rem;
+}
+
 .header {
   font-size: 2rem;
   font-weight: lighter;
