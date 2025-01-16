@@ -2,6 +2,15 @@
 layout: default
 ---
 
+## High-Dimensional Data Analysis (BIOS 7240)
+
+* [Spring 2025](7240/s25/index.html)
+* [Spring 2023](7240/s23/index.html)
+* [Spring 2021](7240/s21/index.html)
+* [Spring 2019](7240/s19/index.html)
+* [Spring 2016](7240/s16/index.html)
+{: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
+
 ## Likelihood Theory and Extensions (BIOS 7110)
 
 * [Fall 2024](7110/f24/index.html)
@@ -20,14 +29,6 @@ layout: default
 * [Spring 2017](4120/s17/index.html)
 * [Spring 2015](4120/s15/index.html)
 * [Spring 2014](4120/s14/index.html)
-{: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
-
-## High-Dimensional Data Analysis (BIOS 7240)
-
-* [Spring 2023](7240/s23/index.html)
-* [Spring 2021](7240/s21/index.html)
-* [Spring 2019](7240/s19/index.html)
-* [Spring 2016](7240/s16/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
 ## Survival Data Analysis (BIOS 7210)
