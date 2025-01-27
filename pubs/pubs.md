@@ -6,6 +6,11 @@ See also: [Google Scholar](https://scholar.google.com/citations?user=cuSa8qUAAAA
 
 [See here for only the more technical/statistical/methodological publications](research.html)
 
+2025
+{: .text-center .fw-light .fs-3}
+
+_Petrin2025
+
 2024
 {: .text-center .fw-light .fs-3}
 
