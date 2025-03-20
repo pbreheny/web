@@ -1,0 +1,24 @@
+<div class="row align-items-center">
+  <div class="col-sm-3 pb-3">
+    <a href="https://pbreheny.github.io/{{ include.pkg }}">
+      <img class="img-fluid" src="img/{{ include.pkg }}.png">
+    </a>
+  </div>
+  <div class="col">
+    <h5>
+      <strong>
+        <a href="https://pbreheny.github.io/{{ include.pkg }}"> {{ include.pkg }} </a>
+      </strong>
+      {{ include.text }}
+    </h5>
+    <div style="height: 15px"></div>
+    <p>
+      <a href="https://github.com/pbreheny/{{ include.pkg }}">
+        <img style="vertical-align: middle" src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/pbreheny/{{ include.pkg }}/master/.version.json&style=flat&logo=github">
+      </a>
+      <a href="https://cran.r-project.org/package={{ include.pkg }}">
+        <img style="vertical-align: middle" src="https://img.shields.io/cran/v/{{ include.pkg }}?logo=R">
+      </a>
+    </p>
+  </div>
+</div>

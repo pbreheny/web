@@ -5,20 +5,24 @@ layout: default
 Current students
 {: .text-center .fw-light .fs-3}
 
-{% include start-student.html img="img/yoon-cho.jpg" %}
-Yoon Joo Cho
+{% include start-student.html img="img/oscar-rysavy.jpg" %}
+Oscar Rysavy
 {% include end-student.html %}
 
-{% include start-student.html img="img/tabitha-peter.jpg" %}
-Tabitha Peter
+{% include start-student.html img="img/logan-harris.jpg" %}
+Logan Harris
 {% include end-student.html %}
 
 {% include start-student.html img="img/yujing-lu.jpg" %}
 Yujing Lu
 {% include end-student.html %}
 
-{% include start-student.html img="img/logan-harris.jpg" %}
-Logan Harris
+{% include start-student.html img="img/tabitha-peter.jpg" %}
+Tabitha Peter
+{% include end-student.html %}
+
+{% include start-student.html img="img/yoon-cho.jpg" %}
+Yoon Joo Cho
 {% include end-student.html %}
 
 Former students
@@ -38,7 +42,7 @@ Feature screening rules and algorithms for efficient optimization of sparse regr
 
 {% include start-student.html img="img/anna-reisetter.jpg" %}
 Anna Reisetter  
-23andMe  
+Xaira Therapeutics  
 Penalized linear mixed models for structured genetic data (2021)
 {% include end-student.html %}
 

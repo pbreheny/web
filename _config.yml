@@ -5,7 +5,7 @@ url: "https://myweb.uiowa.edu/pbreheny"
 
 # Build settings
 markdown: kramdown
-exclude: [build, background.R, pubs, data, dissertation, v, Makefile]
+exclude: [build, background.R, pubs, data, dissertation, v, Makefile, software/*]
 
 # SCSS settings
 sass:
