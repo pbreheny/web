@@ -2,7 +2,7 @@
 layout: img-left
 ---
 
-Welcome to my home page.  I am a professor in the [Department of Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, and a member of the [genetics cluster](https://medicine.uiowa.edu/geneticscluster/current-cluster-faculty-members) here at the university.  I live in the Coralville/Iowa City area with my wife Wyndee and daughters Nyla and Penelope.  Prior to this I was a professor at the University of Kentucky.
+Welcome to my home page.  I am a professor in the [Department of Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, and affiliated with both the [Holden Comprehensive Cancer Center](https://cancer.uiowa.edu/) and [Intellectual and Developmental Disabilities Research Center](https://iddrc.uiowa.edu/) here.  I live in the Coralville/Iowa City area with my wife Wyndee and daughters Nyla and Penelope.  Prior to this I was a professor at the University of Kentucky.
 
 My office is located in the [College of Public Health Building](https://maps.uiowa.edu/?id=1890#!m/590648), where the photo on the left was taken.
 
