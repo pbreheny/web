@@ -1,4 +1,5 @@
 _site
+.snakemake
 *.rout
 img/?*.*
 pdf/*.pdf
