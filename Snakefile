@@ -22,6 +22,7 @@ rule publications:
 rule site:
     input:
         "research.md",
+        "_config.yml",
         "publications.md",
         "_layouts/default.html",
         "js/switcher.js",
