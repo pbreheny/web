@@ -2,6 +2,16 @@
 layout: default
 ---
 
+## Likelihood Theory and Extensions (BIOS 7110)
+
+* [Fall 2025](7110/f25/index.html)
+* [Fall 2024](7110/f24/index.html)
+* [Fall 2023](7110/f23/index.html)
+* [Fall 2022](7110/f22/index.html)
+* [Fall 2021](7110/f21/index.html)
+* [Fall 2020](7110/f20/index.html)
+{: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
+
 ## High-Dimensional Data Analysis (BIOS 7240)
 
 * [Spring 2025](7240/s25/index.html)
@@ -9,15 +19,6 @@ layout: default
 * [Spring 2021](7240/s21/index.html)
 * [Spring 2019](7240/s19/index.html)
 * [Spring 2016](7240/s16/index.html)
-{: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
-
-## Likelihood Theory and Extensions (BIOS 7110)
-
-* [Fall 2024](7110/f24/index.html)
-* [Fall 2023](7110/f23/index.html)
-* [Fall 2022](7110/f22/index.html)
-* [Fall 2021](7110/f21/index.html)
-* [Fall 2020](7110/f20/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
 ## Introduction to Biostatistics (BIOS 4120)
