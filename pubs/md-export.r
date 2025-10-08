@@ -1,7 +1,7 @@
 md_export <- function(x) {
-  if (x$BibliographyType==13) {
+  if (x$BibliographyType == 13) {
     info <- str_glue("Technical report {numberMod(x$Number)}, {journalMod(x$Institution)}. ")
-  } else if (x$Journal=="") {
+  } else if (x$Journal == "") {
     info <- "In submission. "
   } else {
     if (!is.na(x$Volume)) {
@@ -12,7 +12,13 @@ md_export <- function(x) {
     info <- str_glue('*{journalMod(x$Journal)}*, {vol}')
   }
 
-  if (x$URL!="") info <- info + str_glue('<a href="{x$URL}"> <span class="journal">Journal</span></a>')
+  if (x$URL!="") {
+    if (str_detect(x$URL, "arxiv.org")) {
+      info <- info + str_glue('<a href="{x$URL}"> <span class="journal">Preprint</span></a>')
+    } else {
+      info <- info + str_glue('<a href="{x$URL}"> <span class="journal">Journal</span></a>')
+    }
+  }
   if (!is.na(x$pdf) & x$pdf!="") info <- info + str_glue('<a href="{x$pdf}"> <span class="pdf">PDF</span></a>')
   if (!is.na(x$R) & x$R!="") info <- info + str_glue('<a href="{x$R}"> <span class="R">R</span></a>')
   if (!is.na(x$Website) & x$Website!="") info <- info + str_glue('<a href="{x$Website}"> <span class="website">Website</span></a>')

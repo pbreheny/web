@@ -27,7 +27,8 @@ rule publications:
         "pubs/pubs.md",
         "pubs/res.md",
         "pubs/cv.csv",
-        "pubs/cv-extra.txt"
+        "pubs/cv-extra.txt",
+        "pubs/md-export.r"
     output:
         "publications.md",
         "research.md"
