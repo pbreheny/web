@@ -12,6 +12,7 @@ See also: [Google Scholar](https://scholar.google.com/citations?user=cuSa8qUAAAA
 _Harris2025
 _Lu2025
 _Peter2025
+_Scalora2025
 _March2025
 _Borbon2025
 _Petrin2025
