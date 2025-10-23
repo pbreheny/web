@@ -5,20 +5,16 @@ layout: default
 Current students
 {: .text-center .fw-light .fs-3}
 
+{% include start-student.html img="img/steven-alberding.jpg" %}
+Steven Alberding _(joint with Kai Wang)_
+{% include end-student.html %}
+
 {% include start-student.html img="img/oscar-rysavy.jpg" %}
 Oscar Rysavy
 {% include end-student.html %}
 
-{% include start-student.html img="img/logan-harris.jpg" %}
-Logan Harris
-{% include end-student.html %}
-
 {% include start-student.html img="img/yujing-lu.jpg" %}
 Yujing Lu
-{% include end-student.html %}
-
-{% include start-student.html img="img/tabitha-peter.jpg" %}
-Tabitha Peter
 {% include end-student.html %}
 
 {% include start-student.html img="img/yoon-cho.jpg" %}
@@ -28,10 +24,22 @@ Yoon Joo Cho
 Former students
 {: .text-center .fw-light .fs-3}
 
+{% include start-student.html img="img/logan-harris.jpg" %}
+Logan Harris  
+University of Colorado, Department of Biostatistics  
+High-dimensional intervals for penalized regression (2025)
+{% include end-student.html %}
+
+{% include start-student.html img="img/tabitha-peter.jpg" %}
+Tabitha Peter  
+Merck  
+Software for analyzing global family-based association studies: penalized linear mixed models for correlated genetic data with application to orofacial clefts (2025)
+{% include end-student.html %}
+
 {% include start-student.html img="img/collin-nolte.jpg" %}
 Collin Nolte  
 Grinnell College, Department of Mathematics and Statistics  
-What You See is What You Get: A Closer Look at Bias in the Visual World Paradigm (2023)
+What you see is what you get: A closer look at bias in the visual world paradigm (2023)
 {% include end-student.html %}
 
 {% include start-student.html img="img/chuyi-wang.jpg" %}

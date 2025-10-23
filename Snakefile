@@ -8,6 +8,7 @@ rule site:
     input:
         "research.md",
         "teaching.md",
+        "students.md",
         "_config.yml",
         "publications.md",
         "_layouts/default.html",
