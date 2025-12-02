@@ -1,11 +1,12 @@
 # Site settings
 title: "Patrick Breheny"
 baseurl: ""
-url: "https://myweb.uiowa.edu/pbreheny"
+url: "https://pbreheny.org"
 
 # Build settings
 markdown: kramdown
 exclude: [build, background.R, pubs, data, dissertation, v, Snakefile, software/*]
+keep_files: [.dat]
 
 # SCSS settings
 sass:
