@@ -13,14 +13,12 @@ rule site:
         "publications.md",
         "_layouts/default.html",
         "js/switcher.js",
-        "pdf/BrehenyCV.pdf",
+        "assets/BrehenyCV.pdf",
         sass_files = sorted(glob("_sass/*.scss"))
     output:
         "_site/index.html"
     shell:
-        """
-        jekyll build
-        """
+        "jekyll build"
 
 rule publications:
     input:
@@ -34,7 +32,4 @@ rule publications:
         "publications.md",
         "research.md"
     shell:
-        """
-        Rscript pubs/x.r
-        """
-
+        "Rscript pubs/x.r"

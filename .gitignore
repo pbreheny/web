@@ -1,12 +1,13 @@
 _site
 .snakemake
 *.rout
-img/?*.*
-pdf/*.pdf
-misc/?*.*
 publications.md
 research.md
 !pubs/cv.csv
 pubs/*.Rout
 .sass-cache
 .jekyll-cache
+
+# Assets
+assets/?*.*
+!assets/.dat/config

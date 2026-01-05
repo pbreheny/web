@@ -9,12 +9,16 @@ My office is located in the [College of Public Health Building](https://maps.uio
 <div class="row text-center">
 
   <div class="col-sm-2">
-    <audio id="breheny">
-      <source src="misc/breheny.ogg">
-      <source src="misc/breheny.mp3">
+    <audio id="breheny" preload="none">
+      <source src="assets/breheny.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
-    <button onclick="document.getElementById('breheny').play()" title="Pronunciation of my last name">
+    <button
+      type="button"
+      onclick="document.getElementById('breheny').play()"
+      title="Pronunciation of my last name"
+      aria-label="Play pronunciation of last name"
+    >
       <i class="bi bi-headphones fs-1"></i>
     </button>
   </div>
