@@ -23,4 +23,4 @@ and more.
 
 ### SAS Macro tutorial
 
-[Here](misc/macros.pdf) is a presentation/tutorial I have given a few times on SAS Macros.
+[Here](assets/macros.pdf) is a presentation/tutorial I have given a few times on SAS Macros.
