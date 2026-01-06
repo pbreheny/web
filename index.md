@@ -15,6 +15,7 @@ My office is located in the [College of Public Health Building](https://maps.uio
     </audio>
     <button
       type="button"
+      class="button"
       onclick="document.getElementById('breheny').play()"
       title="Pronunciation of my last name"
       aria-label="Play pronunciation of last name"
@@ -30,7 +31,7 @@ My office is located in the [College of Public Health Building](https://maps.uio
   </div>
     
   <div class="col-sm-2">
-    <a href="pdf/BrehenyCV.pdf" class="button" title="My CV">
+    <a href="assets/BrehenyCV.pdf" class="button" title="My CV">
       <i class="bi bi-file-earmark-person fs-1"></i>
     </a>
   </div>

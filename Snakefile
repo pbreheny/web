@@ -14,6 +14,9 @@ rule site:
         "_layouts/default.html",
         "js/switcher.js",
         "assets/BrehenyCV.pdf",
+        "_includes/header.html",
+        "_includes/head.html",
+        "_includes/menu.html",
         sass_files = sorted(glob("_sass/*.scss"))
     output:
         "_site/index.html"

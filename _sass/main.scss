@@ -3,12 +3,21 @@
   --bs-body-font-family: Lato, sans-serif;
 }
 
-.table {
-  --bs-table-color: var(--bs-body-color);
+body {
+  background: url(../assets/bg.png);
 }
 
-body {
-  background: url(https://pbreheny.org/assets/bg.png);
+a {
+  text-decoration:none;
+  color: var(--link-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+.table {
+  --bs-table-color: var(--bs-body-color);
 }
 
 .h1, h1 {
@@ -28,6 +37,7 @@ body {
 .header {
   font-size: 2rem;
   font-weight: lighter;
+  color: #ccc;
 }
 
 .container-lg {
@@ -37,90 +47,33 @@ body {
 .main-content {
   border-radius: 10px;
   padding: 30px;
+  background: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+
+.button {
+  display: inline-block;
+  color: var(--bs-button-color);
+  border: 0px;
+  background: transparent;
+}
+.button:hover, button:hover {
+  color: #008dff;
 }
 
 iframe {
   display:block
 }
+
 .student-list {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
 }
+
 .student-img {
   height: 100px;
   width: 100%;
   border-radius: 50%;
 }
-%link-button {
-  border-style: solid;
-  color: #fff;
-  padding: 4px;
-  border: 0px;
-  border-style: solid;
-  border-radius: 0.2rem;
-  font-size: small;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: 700;
-  line-height: 1.0em;
-}
-%link-button-hover {
-  background-color: #fff;
-  fill: #fff;
-  text-decoration: none;  
-}
-.journal {
-  @extend %link-button;
-  background-color: #00a7e6;
-  border-color: #00a7e6;
-}
-.journal:hover {
-  @extend %link-button-hover;
-  color: #00a7e6;
-}
-.pdf {
-  @extend %link-button;
-  background-color: #e600a7;
-  border-color: #e600a7;
-}
-.pdf:hover {
-  @extend %link-button-hover;
-  color: #e600a7;
-}
-.R {
-  @extend %link-button;
-  background-color: #FF4E37;
-  border-color: #FF4E37;
-}
-.R:hover {
-  @extend %link-button-hover;
-  color: #FF4E37;
-}
-.reproduce {
-  @extend %link-button;
-  background-color: #00B500;
-  border-color: #00B500;
-}
-.reproduce:hover {
-  @extend %link-button-hover;
-  color: #00B500;
-}
-.website {
-  @extend %link-button;
-  background-color: #a700e6;
-  border-color: #a700e6;
-}
-.website:hover {
-  @extend %link-button-hover;
-  color: #a700e6;
-}
-.app {
-  @extend %link-button;
-  background-color: #e6a700;
-  border-color: #e6a700;
-}
-.app:hover {
-  @extend %link-button-hover;
-  color: #e6a700;
-}
+

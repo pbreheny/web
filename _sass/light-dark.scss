@@ -1,46 +1,25 @@
-.main-content {
-  background: #2a2a2a;
-  color: #ccc;
-}
-.light main-content {
-  background: #eee;
-  color: #000;
+/* Light theme */
+[data-bs-theme="light"] {
+  --bs-body-bg: #eeeeee;
+  --bs-body-color: #333;
+  --bs-border-color: #dee2e6;
+  --bs-button-color: #333;
+  
+  --link-color: #007bff;
+  --hover-color: #0BDA51;
+
+  .icon-dark { display: none; }
 }
 
-a {
-  color: #00a7e6;
-  text-decoration:none;
-}
-a:hover {
-  color: #00e7a7;
-}
+/* Dark theme */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #2a2a2a;
+  --bs-body-color: #ccc;
+  --bs-border-color: #2a2f3a;
+  --bs-button-color: #ccc;
 
-.button {
-  display: inline-block;
-  color: #ccc;
-}
-.light .button {
-  color: #333;
-}
-button {
-  color: #ccc;
-  border: 0px;
-  background: transparent;
-}
-.light button {
-  color: #333;
-}
-.button:hover, button:hover {
-  color: #008dff;
-}
-.year {
-  color: #ddd;
-  font-weight: normal;
-  text-align: center;
-  line-height:1em;
-  display: block;
-  padding: 10px 0px 20px 0px;
-}
-.light .year {
-  color: #333;
+  --link-color: #00a7e6;
+  --hover-color: #00e7a7;
+  
+  .icon-light { display: none; }
 }

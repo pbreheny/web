@@ -3,15 +3,15 @@ Bada2015	https://pediatrics.aappublications.org/content/135/2/e383.full.pdf
 Breheny2017	https://journal.r-project.org/archive/2017/RJ-2017-046/RJ-2017-046.pdf	https://cran.r-project.org/web/packages/visreg/index.html		https://pbreheny.github.io/visreg/			
 Breheny2019	https://arxiv.org/pdf/1607.05636	https://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/lassoFDRpaper				
 Breheny2003	https://pubs.acs.org/doi/pdf/10.1021/ja0375380						
-Breheny2009	pdf/Breheny2009.pdf	https://cran.r-project.org/web/packages/grpreg/index.html					
-Breheny2011	pdf/Breheny2011.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html					
+Breheny2009	assets/Breheny2009.pdf	https://cran.r-project.org/web/packages/grpreg/index.html					
+Breheny2011	assets/Breheny2011.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html					
 Breheny2012	https://www.plosone.org/article/fetchObjectAttachment.action?uri=info%3Adoi%2F10.1371%2Fjournal.pone.0034262&representation=PDF 						
 Breheny2012a	https://www.omicsonline.org/2155-6180/2155-6180-3-e118.pdf						
 Breheny2015a	https://onlinelibrary.wiley.com/doi/10.1111/biom.12300/pdf	https://cran.r-project.org/web/packages/grpreg/index.html					
-Breheny2015	pdf/group-computing.pdf	https://cran.r-project.org/web/packages/grpreg/index.html					
+Breheny2015	assets/group-computing.pdf	https://cran.r-project.org/web/packages/grpreg/index.html					
 Breheny2018	https://www.mdpi.com/2571-5135/7/3/23/pdf						
-BrehenyR2011	pdf/Motulsky2010.pdf						
-BrehenyR2014	pdf/Simon2013.pdf						
+BrehenyR2011	assets/Motulsky2010.pdf						
+BrehenyR2014	assets/Simon2013.pdf						
 Crawford2014	https://link.springer.com/content/pdf/10.1007%2Fs10461-013-0524-y.pdf						
 DaiCoxCV	https://arxiv.org/pdf/1905.10432.pdf						
 Donovan2019					https://ph-shiny.iowa.uiowa.edu/pbreheny/gdm-risk-calculator/		
@@ -21,9 +21,9 @@ Gode-Potratz2011	https://onlinelibrary.wiley.com/doi/10.1111/j.1365-2958.2010.07
 Heron2013							
 Huang2016	https://www3.stat.sinica.edu.tw/statistica/oldpdf/A26n32.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html					
 Huang2010u	https://www.stat.uiowa.edu/files/stat/techrep/tr402.pdf						
-Huang2012	pdf/Huang2012.pdf						
-Lee2015a	pdf/strong-rules.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html					
-Li2013	pdf/cnv-kernel.pdf						
+Huang2012	assets/Huang2012.pdf						
+Lee2015a	assets/strong-rules.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html					
+Li2013	assets/cnv-kernel.pdf						
 Miller2023	https://arxiv.org/pdf/1809.05497	https://cran.r-project.org/web/packages/ncvreg/index.html					
 McClintock2014	https://www.jneurosci.org/content/34/47/15669.full.pdf					Featured article.  	https://www.jneurosci.org/content/34/47/i.full.pdf
 Miller2019	https://arxiv.org/pdf/1710.11459.pdf	https://cran.r-project.org/web/packages/ncvreg/index.html	https://github.com/pbreheny/mfdr-likelihood-paper				
@@ -33,7 +33,7 @@ Owen2013	https://www.ajpe.org/doi/pdf/10.5688/ajpe77354
 Pashkova2016	https://www.cell.com/cell-reports/pdf/S2211-1247(16)31204-9.pdf	https://github.com/pbreheny/deepn					
 Podzielinski2012	https://www.sciencedirect.com/science/article/pii/S009082581100792X/pdfft?md5=811501da7c1e5d9946c3dc3b46147775&pid=1-s2.0-S009082581100792X-main.pdf						
 Sanz2013	https://www.sciencedirect.com/science/article/pii/S0378113513004574/pdfft?md5=7603eb2599a1b2f029b8da98b46124d5&pid=1-s2.0-S0378113513004574-main.pdf						
-SchofieldR2014	pdf/Lunn2013.pdf						
+SchofieldR2014	assets/Lunn2013.pdf						
 Scott2012	https://oae.sagepub.com/content/25/4/402.full.pdf+html						
 Smith2012	https://jcm.asm.org/content/50/6/1981.full.pdf+html						
 Smith2016	https://ajh.oxfordjournals.org/content/29/1/17.full.pdf						
