@@ -8,10 +8,11 @@ rule site:
     input:
         "research.md",
         "teaching.md",
-        "students.md",
+        "people.md",
         "_config.yml",
         "publications.md",
         "_layouts/default.html",
+        "_layouts/img-left.html",
         "js/switcher.js",
         "assets/BrehenyCV.pdf",
         "_includes/header.html",

@@ -8,7 +8,7 @@ My office is located in the [College of Public Health Building](https://maps.uio
 
 <div class="row text-center">
 
-  <div class="col-sm-2">
+  <div class="col-2">
     <audio id="breheny" preload="none">
       <source src="assets/breheny.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
@@ -24,25 +24,25 @@ My office is located in the [College of Public Health Building](https://maps.uio
     </button>
   </div>
   
-  <div class="col-sm-2">
+  <div class="col-2">
     <a href="mailto:patrick-breheny@uiowa.edu" class="button" title="Email me">
       <i class="bi bi-envelope fs-1"></i>
     </a>
   </div>
     
-  <div class="col-sm-2">
+  <div class="col-2">
     <a href="assets/BrehenyCV.pdf" class="button" title="My CV">
       <i class="bi bi-file-earmark-person fs-1"></i>
     </a>
   </div>
   
-  <div class="col-sm-2">
+  <div class="col-2">
     <a href="https://github.com/pbreheny" class="button" title="GitHub">
       <i class="bi bi-github fs-1"></i>
     </a>
   </div>
   
-  <div class="col-sm-2">
+  <div class="col-2">
     <a href="https://scholar.google.com/citations?user=cuSa8qUAAAAJ" class='button' title='Google Scholar'>
       <i class="bi bi-mortarboard-fill fs-1"></i>
     </a>

@@ -19,7 +19,7 @@ and more.
 
 ### Big data lab
 
-[Here](misc/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.
+[Here](https://pbreheny.org/4110/big-data-lab.html) is a lab titled "Working with big data in genomics" that I have given for our Iowa Summer Institute in Biostatistics students.
 
 ### SAS Macro tutorial
 

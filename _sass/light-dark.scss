@@ -8,7 +8,9 @@
   --link-color: #007bff;
   --hover-color: #0BDA51;
 
-  .icon-dark { display: none; }
+  .icon-dark {
+    display: none;
+  }
 }
 
 /* Dark theme */
@@ -21,5 +23,7 @@
   --link-color: #00a7e6;
   --hover-color: #00e7a7;
   
-  .icon-light { display: none; }
+  .icon-light {
+    display: none;
+  }
 }
