@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign current = site.data.people | where: "status", "current" %}
+{% assign former  = site.data.people | where: "status", "former" %}
+
+<p class="text-center fw-light fs-3"> Current </p>
+<p class="text-center"> <em>(pending)</em> </p>
+<!-- {% for p in current %}{% include person-card.html p=p %}{% endfor %} -->
+
+<p class="text-center fw-light fs-3"> Former </p>
+{% for p in former %}{% include person-card.html p=p %}{% endfor %}

@@ -1,0 +1,21 @@
+{% assign p = include.p %}
+
+<div class="row align-items-center g-3 mb-4">
+  <div class="col-12 col-sm-2 text-center">
+    <img class="img-fluid rounded-circle" src="assets/{{ p.id | escape }}.jpg" alt="{{ p.name | escape }}" style="max-width: 140px;">
+  </div>
+  <div class="col-12 col-sm-10">
+    {% if p.url %}
+    <div class="fw-semibold"><a href="{{ p.url | escape }}">{{ p.name }}</a></div>
+    {% else %}
+    <div class="fw-semibold">{{ p.name }}</div>
+    {% endif %}
+      <div class="text-body-secondary">
+        {% if p.affiliation %}{{ p.affiliation }}{% endif %}
+      </div>
+
+    {% if p.dissertation and p.dissertation.title %}
+      <div class="mt-1"><em>{{ p.dissertation.title }}</em>{% if p.dissertation.year %} ({{ p.dissertation.year }}){% endif %}</div>
+    {% endif %}
+  </div>
+</div>

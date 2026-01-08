@@ -5,7 +5,7 @@ url: "https://pbreheny.org"
 
 # Build settings
 markdown: kramdown
-exclude: [pubs, Snakefile, software/*]
+exclude: [Snakefile]
 
 # SCSS settings
 sass:

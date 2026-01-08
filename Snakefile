@@ -8,13 +8,14 @@ rule site:
     input:
         "research.md",
         "teaching.md",
-        "people.md",
-        "_config.yml",
+        "people.html",
         "publications.md",
+        "research.md",
+        "assets/BrehenyCV.pdf",
+        "_config.yml",
+        "_data/people.yml",
         "_layouts/default.html",
         "_layouts/img-left.html",
-        "js/switcher.js",
-        "assets/BrehenyCV.pdf",
         "_includes/header.html",
         "_includes/head.html",
         "_includes/menu.html",
@@ -26,14 +27,14 @@ rule site:
 
 rule publications:
     input:
-        "pubs/x.r",
-        "pubs/pubs.md",
-        "pubs/res.md",
-        "pubs/cv.csv",
-        "pubs/cv-extra.txt",
-        "pubs/md-export.r"
+        "_publications/x.r",
+        "_publications/_publications.md",
+        "_publications/res.md",
+        "_publications/cv.csv",
+        "_publications/cv-extra.txt",
+        "_publications/md-export.r"
     output:
         "publications.md",
         "research.md"
     shell:
-        "Rscript pubs/x.r"
+        "Rscript _publications/x.r"

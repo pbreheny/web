@@ -1,0 +1,103 @@
+- id: oscar-rysavy
+  name: Oscar Rysavy
+  status: current
+  affiliation: Biostatistics, University of Iowa
+
+- id: logan-harris
+  name: Logan Harris
+  status: former
+  affiliation: University of Colorado, Department of Biostatistics
+  url: https://www.linkedin.com/in/logan-m-harris
+  dissertation:
+    title: "High-dimensional intervals for penalized regression"
+    year: 2025
+
+- id: tabitha-peter
+  name: Tabitha Peter
+  status: former
+  affiliation: Merck
+  url: https://www.linkedin.com/in/tabpeter
+  dissertation:
+    title: "Software for analyzing global family-based association studies: penalized linear mixed models for correlated genetic data with application to orofacial clefts"
+    year: 2025
+
+- id: collin-nolte
+  name: Collin Nolte
+  status: former
+  affiliation: Grinnell College, Department of Mathematics and Statistics
+  url: https://collinn.github.io/
+  dissertation:
+    title: "What you see is what you get: A closer look at bias in the visual world paradigm"
+    year: 2023
+
+- id: chuyi-wang
+  name: Chuyi Wang
+  status: former
+  affiliation: Liberty Mutual Insurance
+  dissertation:
+    title: "Feature screening rules and algorithms for efficient optimization of sparse regression models"
+    year: 2021
+
+- id: anna-reisetter
+  name: Anna Beck (Reisetter)
+  status: former
+  affiliation: Xaira Therapeutics
+  url: https://www.linkedin.com/in/ar1221b2a4a123
+  dissertation:
+    title: "Penalized linear mixed models for structured genetic data"
+    year: 2021
+
+- id: biyue-dai
+  name: Biyue Dai
+  status: former
+  affiliation: University of Minnesota, Division of Biostatistics
+  dissertation:
+    title: "Projection-based inference and model selection for penalized regression"
+    year: 2019
+  url: https://directory.sph.umn.edu/bio/sph-a-z/biyue-dai
+
+- id: sheng-wang
+  name: Sheng Wang
+  status: former
+  affiliation: Optum
+  url: https://www.linkedin.com/in/sheng-wang-iowa
+  dissertation:
+    title: "Regularized skewness parameter estimation for multivariate skew normal and skew t distributions"
+    year: 2019
+
+- id: ryan-miller
+  name: Ryan Miller
+  status: former
+  affiliation: Grinnell College, Department of Mathematics and Statistics
+  url: https://remiller1450.github.io/
+  dissertation:
+    title: "Marginal false discovery rate approaches to inference on penalized regression models"
+    year: 2018
+
+- id: yaohui-zeng
+  name: Yaohui Zeng
+  status: former
+  affiliation: Waymo
+  url: https://www.linkedin.com/in/yaohuizeng
+  dissertation:
+    title: "Scalable sparse machine learning methods for big data"
+    year: 2017
+
+- id: michael-singleton
+  name: Michael Singleton
+  status: former
+  affiliation: PPD CorEvitas (Thermo Fisher Scientific)
+  url: https://www.linkedin.com/in/michael-d-singleton
+  dissertation:
+    title: "Nonlinear hierarchical models for longitudinal experimental infection studies"
+    year: 2015
+
+- id: yinglei-li
+  name: Yinglei Li
+  status: former
+  affiliation: CSL
+  url: https://www.linkedin.com/in/yinglei-li-09498597
+  dissertation:
+    title: "Genetic association testing of copy number variation"
+    year: 2014
+
