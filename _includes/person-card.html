@@ -1,10 +1,10 @@
 {% assign p = include.p %}
 
 <div class="row align-items-center g-3 mb-4">
-  <div class="col-12 col-sm-2 text-center">
+  <div class="col-12 col-md-2 text-center">
     <img class="img-fluid rounded-circle" src="assets/{{ p.id | escape }}.jpg" alt="{{ p.name | escape }}" style="max-width: 140px;">
   </div>
-  <div class="col-12 col-sm-10">
+  <div class="col-12 col-md-10">
     {% if p.url %}
     <div class="fw-semibold"><a href="{{ p.url | escape }}">{{ p.name }}</a></div>
     {% else %}

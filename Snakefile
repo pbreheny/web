@@ -19,6 +19,7 @@ rule site:
         "_includes/header.html",
         "_includes/head.html",
         "_includes/menu.html",
+        "_includes/person-card.html",
         sass_files = sorted(glob("_sass/*.scss"))
     output:
         "_site/index.html"
