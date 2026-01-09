@@ -21,7 +21,7 @@ body:
           name: Patrick Breheny
           status: current
           affiliation: PhD student, University of Iowa, Department of Biostatistics
-          url: (optional)
+          url: (include a link to your webpage or LinkedIn profile; this is optional, delete this line if you don't want a link)
       render: yaml
     validations:
       required: true
