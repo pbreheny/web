@@ -48,9 +48,9 @@ md_export <- function(x) {
 ')
   }
   str_glue('
-<li class="pub">
+<div class="pub">
 {out}
-</li>
+</div>
 ')
 }
 
