@@ -26,16 +26,6 @@ body:
     validations:
       required: true
 
-  - type: input
-    id: photo_link
-    attributes:
-      label: Photo link (optional)
-      description: |
-        If you'd like to update your photo, paste a public link here (Dropbox, Google Drive, personal site, etc.)
-        OR attach an image below.
-    validations:
-      required: false
-
   - type: dropdown
     id: photo_source
     attributes:
