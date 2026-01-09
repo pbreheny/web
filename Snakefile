@@ -29,7 +29,7 @@ rule site:
 rule publications:
     input:
         "_publications/x.r",
-        "_publications/_publications.md",
+        "_publications/pubs.md",
         "_publications/res.md",
         "_publications/cv.csv",
         "_publications/cv-extra.txt",

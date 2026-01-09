@@ -69,15 +69,25 @@ iframe {
   display:block
 }
 
-.student-list {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 30px;
+.pub {
+  margin-bottom: 1.1rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--bs-border-color);
 }
 
-.student-img {
-  height: 100px;
-  width: 100%;
-  border-radius: 50%;
+.pub-title {
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+
+.pub-authors {
+  font-size: 0.95rem;
+  color: var(--bs-secondary-color);
+}
+
+.pub-venue {
+  font-size: 0.95rem;
+  color: var(--bs-secondary-color);
 }
 

@@ -5,11 +5,11 @@ md_export <- function(x) {
     info <- "In submission. "
   } else {
     if (!is.na(x$Volume)) {
-      vol <- str_glue('**{x$Volume}**: {pagesMod(x$Pages)}. ')
+      vol <- str_glue('{x$Volume}: {pagesMod(x$Pages)}. ')
     } else {
       vol <- 'to appear. '
     }
-    info <- str_glue('*{journalMod(x$Journal)}*, {vol}')
+    info <- str_glue('<em>{journalMod(x$Journal)}</em>, {vol}')
   }
 
   if (x$URL!="") {
@@ -27,16 +27,31 @@ md_export <- function(x) {
 
   # Format output
   out <- str_glue('
-* ###### {titleMod(x$Title)}
-  ###### {authorMod(x$Author)}
-  ###### {info}')
+  <div class="pub-title">
+    {titleMod(x$Title)}
+  </div>
+  <div class="pub-authors">
+    {authorMod(x$Author)}
+  </div>
+  <div class="pub-venue">
+    {info}
+  </div>
+')
   if (!is.na(x$featText) & x$featText!="") {
+    feat <- x$featText
+    if (!is.na(x$featLink) & x$featLink!="")
+      feat <- str_glue('{feat} <a href="{x$URL}"> <span class="journal">Link</span></a>')
     out <- str_glue('{out}
-  ###### {x$featText}')
-    if (!is.na(x$featLink) & x$featLink!="") out <- out + str_glue('<a href="{x$URL}"> <span class="journal">Link</span></a>')
-  } else {
-    out
+  <div class="pub-venue">
+    {feat}
+  </div>
+')
   }
+  str_glue('
+<li class="pub">
+{out}
+</li>
+')
 }
 
 authorMod <- function(x) {

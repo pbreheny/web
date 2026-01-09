@@ -8,59 +8,75 @@ My research focuses on the analysis of high-dimensional data, particularly those
 
 Penalized regression is an attractive methodology for dealing with high-dimensional data where classical likelihood approaches to modeling break down. However, its widespread adoption has been hindered by a lack of inferential tools. In particular, penalized regression is very useful for variable selection, but how confident should one be about those selections? How many of those selections would likely have occurred by chance alone? The papers below represent my ongoing work to estimate false discovery rates for penalized regression models.
 
+<ul>
 _Miller2023
 _Miller2019
 _Breheny2019
+</ul>
 
 # Deconfounding and mixed models
 
 Penalized linear mixed models provide a way to address batch effects and hidden confounding. The papers below represent my work on studying this phenomenon and providing software to fit these models.
 
+<ul>
 _Reisetter2021
+</ul>
 
 # Nonconvex penalties
 
 Although the lasso has many attractive properties, it also introduces significant bias toward 0 for large regression coefficients. The MCP and SCAD penalties have been proposed as alternatives designed to diminish this bias, and shown to have attractive theoretical and empirical properties. However, the penalty functions for SCAD and MCP are nonconvex, which introduces numerical challenges in fitting these models, as well as additional practical considerations in tuning parameter selection. The first paper develops algorithms for fitting nonconvex models in high dimensions and proposes local convexity as a diagnostic measure. The second extends these concepts to elastic net-type estimators and further explores the issue of tuning parameter selection. The third paper discusses methods for accelerating convergence in very high-dimensional problems.
 
+<ul>
 _Breheny2011
 _Huang2016
 _Lee2015a
+</ul>
 
 # Grouped (hierarchical) variable selection
 
 In regression modeling, explanatory variables can often be thought of as grouped. Taking this grouping information into account in the modeling process should improve both the interpretability and the accuracy of the model. These gains are likely to be particularly important in high-dimensional settings where sparsity and variable selection play important roles in estimation accuracy. The first paper provides a review of this subject, while the second extends the ideas of nonconvex penalization to grouped variable selection and proposes efficient algorithms to fit these models. The third paper extends the idea of group selection to the problem of overlapping groups.
 
+<ul>
 _Zeng2016
 _Breheny2015
 _Huang2012
+</ul>
 
 # Bi-level variable selection
 
 Most of the methods developed for grouped variable selection produce estimates that are sparse at the group level and not at the level of individual variables. This is not always appropriate for the data. In many applications (e.g., genetic association studies), the goal is to identify important individual markers, but to increase the power of the search by incorporating grouping information. The first paper below introduces this topic; the second identifies some shortcomings of the method proposed in the first and proposes a new method with many advantages over the first.
 
+<ul>
 _Breheny2015a
 _Breheny2009
+</ul>
 
 # Visualization of regression models
 
 The importance of visualizing data is widely recognized. Visualization of models and estimates and predictions deriving from those models is just as important, yet tools for easily carrying out these visualizations are less well-developed. The paper below describes our development of software to provide tools for visualizing a wide class of regression models fit in R.
 
+<ul>
 _Breheny2017
+</ul>
 
 # Survival analysis
 
 Much of my work in survival analysis is applied, but the following papers are primarily methodological, or contain significant methodological innovation:
 
+<ul>
 _Borbon2025
 _Dai2024
+</ul>
 
 # Genetics and genomics
 
 I have been particularly motivated by genetic association studies, copy-number variation, and gene expression studies. Many of my papers in this area are applied, but the following are primarily methodological, or contain significant methodological innovation:
 
+<ul>
 _Yi2015
 _McClintock2014
 _Li2013
 _Breheny2012a
 _Breheny2012
 _Nickell2012
+</ul>
