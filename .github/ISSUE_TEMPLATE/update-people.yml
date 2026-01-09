@@ -9,9 +9,6 @@ body:
       value: |
         Thanks for keeping your info up to date!
 
-        Please **only edit your own entry** below.
-        I'll review and apply the change.
-
   - type: textarea
     id: yaml
     attributes:
@@ -23,8 +20,8 @@ body:
         - id: patrick-breheny
           name: Patrick Breheny
           status: current
-          affiliation: University of Iowa, Department of Biostatistics
-          url:
+          affiliation: PhD student, University of Iowa, Department of Biostatistics
+          url: (optional)
       render: yaml
     validations:
       required: true
