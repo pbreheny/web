@@ -1,0 +1,65 @@
+name: Update my People page entry
+description: Request an update to your information on my website
+title: "People page update: <your name>"
+labels: ["people-update"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for keeping your info up to date!
+
+        Please **only edit your own entry** below.
+        I'll review and apply the change.
+
+  - type: textarea
+    id: yaml
+    attributes:
+      label: Your entry (edit this block)
+      description: |
+        Paste your current block from people.yml and edit what you'd like changed.
+        Example:
+      value: |
+        - id: patrick-breheny
+          name: Patrick Breheny
+          status: current
+          affiliation: University of Iowa, Department of Biostatistics
+          url:
+      render: yaml
+    validations:
+      required: true
+
+  - type: input
+    id: photo_link
+    attributes:
+      label: Photo link (optional)
+      description: |
+        If you'd like to update your photo, paste a public link here (Dropbox, Google Drive, personal site, etc.)
+        OR attach an image below.
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Photo notes**
+        - I display photos as small circles (~100×100 px)
+        - If you upload a large image, I’ll crop it myself
+        - If you'd prefer a specific crop, feel free to upload a pre-cropped square
+
+  - type: textarea
+    id: photo_upload
+    attributes:
+      label: Upload photo (optional)
+      description: |
+        You can drag-and-drop an image here.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I consent to this information being displayed publicly on Patrick's website.
+          required: true
