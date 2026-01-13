@@ -25,25 +25,25 @@ layout: default
 
 ## High-Dimensional Data Analysis (BIOS 7240)
 
-* [Spring 2025](7240/s25/index.html)
-* [Spring 2023](7240/s23/index.html)
-* [Spring 2021](7240/s21/index.html)
-* [Spring 2019](7240/s19/index.html)
-* [Spring 2016](7240/s16/index.html)
+* [Spring 2025](/7240/s25/index.html)
+* [Spring 2023](/7240/s23/index.html)
+* [Spring 2021](/7240/s21/index.html)
+* [Spring 2019](/7240/s19/index.html)
+* [Spring 2016](/7240/s16/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
 ## Survival Data Analysis (BIOS 7210)
 
-* [Fall 2019](7210/f19/index.html)
-* [Fall 2018](7210/f18/index.html)
-* [Fall 2017](7210/f17/index.html)
-* [Fall 2015](7210/f15/index.html)
+* [Fall 2019](/7210/f19/index.html)
+* [Fall 2018](/7210/f18/index.html)
+* [Fall 2017](/7210/f17/index.html)
+* [Fall 2015](/7210/f15/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
 ## Biostatistical Methods I (BIOS 5710)
 
-* [Fall 2016](5710/f16/index.html)
-* [Fall 2014](5710/f14/index.html)
+* [Fall 2016](/5710/f16/index.html)
+* [Fall 2014](/5710/f14/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
 <div style="height:200px"></div>
