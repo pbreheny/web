@@ -4,6 +4,7 @@ layout: default
 
 ## Introduction to Biostatistics (BIOS 4120)
 
+* [Spring 2026](/4120/s26/index.html)
 * [Spring 2024](/4120/s24/index.html)
 * [Spring 2022](/4120/s22/index.html)
 * [Spring 2020](/4120/s20/index.html)
@@ -46,13 +47,13 @@ layout: default
 * [Fall 2014](/5710/f14/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}
 
-<div style="height:200px"></div>
+<div style="height:100px"></div>
 
 ## University of Kentucky courses (archived)
 
-* [STA 621: Nonparametric statistics](uk/teaching/621/index.html)
-* [BST 701: Bayesian modeling in biostatistics](uk/teaching/701/index.html)
-* [BST 760: Advanced regression (linear and generalized linear models)](uk/teaching/760-s11/index.html)
-* [BST 760: Advanced regression (generalized inear models)](uk/teaching/760-s13/index.html)
-* [BST 764: Applied Statistical Modeling for Medicine and Public Health](uk/764/index.html)
+* [STA 621: Nonparametric statistics](/621/f12/index.html)
+* [BST 701: Bayesian modeling in biostatistics](/701/index.html)
+* [BST 760: Advanced regression (linear and generalized linear models)](/760/s11/index.html)
+* [BST 760: Advanced regression (generalized inear models)](/760/s13/index.html)
+* [BST 764: Applied Statistical Modeling for Medicine and Public Health](/764/index.html)
 {: .list-unstyled .ps-5 .mb-3 .h5 .lh-sm}

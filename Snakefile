@@ -3,6 +3,11 @@ from glob import glob
 rule all:
     input:
         "_site/index.html"
+    shell:
+        """
+        aws-auto-login
+        deploy -r
+        """
 
 rule site:
     input:
