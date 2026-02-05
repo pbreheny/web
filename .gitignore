@@ -11,3 +11,7 @@ pubs/*.Rout
 # Assets
 assets/?*.*
 !assets/.dat/config
+
+# Sentinel files
+.build-done
+.deploy-done

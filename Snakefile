@@ -2,11 +2,17 @@ from glob import glob
 
 rule all:
     input:
-        "_site/index.html"
+        ".build-done",
+        ".deploy-done"
+
+rule deploy:
+    input: ".build-done"
+    output: ".deploy-done"
     shell:
         """
         aws-auto-login
         deploy -r
+        touch .deploy-done
         """
 
 rule site:
@@ -26,10 +32,12 @@ rule site:
         "_includes/menu.html",
         "_includes/person-card.html",
         sass_files = sorted(glob("_sass/*.scss"))
-    output:
-        "_site/index.html"
+    output: ".build-done"
     shell:
-        "jekyll build"
+        """
+        jekyll build
+        touch .build-done
+        """
 
 rule publications:
     input:
