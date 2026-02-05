@@ -6,12 +6,15 @@ See also: [Google Scholar](https://scholar.google.com/citations?user=cuSa8qUAAAA
 
 [See here for only the more technical/statistical/methodological publications](research.html)
 
-2025
+2026
 {: .text-center .fw-light .fs-3}
-
 _Harris2025
 _Lu2025
 _Peter2025
+_Pope2026
+
+2025
+{: .text-center .fw-light .fs-3}
 _Scalora2025
 _March2025
 _Borbon2025
