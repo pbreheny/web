@@ -21,7 +21,6 @@ md_export <- function(x) {
   }
   if (!is.na(x$pdf) & x$pdf!="") info <- info + str_glue('<a href="{x$pdf}"> <span class="pdf">PDF</span></a>')
   if (!is.na(x$R) & x$R!="") info <- info + str_glue('<a href="{x$R}"> <span class="R">R</span></a>')
-  if (!is.na(x$Website) & x$Website!="") info <- info + str_glue('<a href="{x$Website}"> <span class="website">Website</span></a>')
   if (!is.na(x$Reproduce) & x$Reproduce!="") info <- info + str_glue('<a href="{x$Reproduce}"> <span class="reproduce">Reproduce</span></a>')
   if (!is.na(x$App) & x$App!="") info <- info + str_glue('<a href="{x$App}"> <span class="app">App</span></a>')
 
