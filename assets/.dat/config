@@ -1,3 +1,5 @@
 aws: pbreheny.web.assets
+hash: xxh3_64
 profile: personal
 pushed: True
+symlinks: ignore
