@@ -1,4 +1,4 @@
-from glob import glob
+from pathlib import Path
 
 rule all:
     input:
@@ -31,7 +31,8 @@ rule site:
         "_includes/head.html",
         "_includes/menu.html",
         "_includes/person-card.html",
-        sass_files = sorted(glob("_sass/*.scss"))
+        Path("assets").glob("*.*"),
+        Path("_sass").glob("*.scss")
     output: ".build-done"
     shell:
         """
