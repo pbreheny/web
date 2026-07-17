@@ -6,11 +6,15 @@ See also: [Google Scholar](https://scholar.google.com/citations?user=cuSa8qUAAAA
 
 [See here for only the more technical/statistical/methodological publications](research.html)
 
-2026
+In submission
 {: .text-center .fw-light .fs-3}
 _Harris2025
 _Lu2025
+
+2026
+{: .text-center .fw-light .fs-3}
 _Peter2026
+_Voigt2026
 _Garcia2026
 _Choi2026
 _Pope2026
@@ -182,4 +186,3 @@ _Gfeller2008
 {: .text-center .fw-light .fs-3}
 
 _Breheny2003
-
