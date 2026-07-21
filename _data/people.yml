@@ -2,14 +2,9 @@
   name: Steven Alberding
   status: current
   affiliation: PhD student, University of Iowa, Department of Biostatistics
-  
+
 - id: oscar-rysavy
   name: Oscar Rysavy
-  status: current
-  affiliation: PhD student, University of Iowa, Department of Biostatistics
-
-- id: yujing-lu
-  name: Yujing Lu
   status: current
   affiliation: PhD student, University of Iowa, Department of Biostatistics
 
@@ -17,6 +12,15 @@
   name: Yoon Joo Cho
   status: current
   affiliation: PhD student, University of Iowa, Department of Biostatistics
+
+- id: yujing-lu
+  name: Yujing Lu
+  status: former
+  affiliation: Merck
+  url: https://www.linkedin.com/in/yujing-lu-b5a7a315a
+  dissertation:
+    title: "Disentangling true signals from false positives for penalized regression in the presence of confounding"
+    year: 2026
 
 - id: logan-harris
   name: Logan Harris
@@ -115,4 +119,3 @@
   dissertation:
     title: "Genetic association testing of copy number variation"
     year: 2014
-
