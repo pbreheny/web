@@ -11,7 +11,7 @@ rule deploy:
     shell:
         """
         aws-auto-login
-        deploy -r
+        deploy
         touch .deploy-done
         """
 
