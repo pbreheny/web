@@ -1,8 +1,10 @@
-library(data.table)
-library(stringr)
-source("_publications/html-export.r")
-source("_publications/md-export.r")
-source("_publications/render.r")
+suppressPackageStartupMessages({
+  library(data.table)
+  library(stringr)
+})
+source("_publications/html-export.R")
+source("_publications/md-export.R")
+source("_publications/render.R")
 
 dat <- merge(
   fread("_publications/cv.csv"),

@@ -42,14 +42,14 @@ rule site:
 
 rule publications:
     input:
-        "_publications/x.r",
+        "_publications/x.R",
         "_publications/pubs.md",
         "_publications/res.md",
         "_publications/cv.csv",
         "_publications/cv-extra.txt",
-        "_publications/md-export.r"
+        "_publications/md-export.R"
     output:
         "publications.md",
         "research.md"
-    shell:
-        "Rscript _publications/x.r"
+    script:
+        "_publications/x.R"

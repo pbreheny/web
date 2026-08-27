@@ -14,6 +14,8 @@ _Lu2025
 2026
 {: .text-center .fw-light .fs-3}
 _Peter2026
+_Peterson2026
+_Lingo2026
 _Voigt2026
 _Garcia2026
 _Choi2026
