@@ -31,6 +31,7 @@ rule site:
         "_includes/head.html",
         "_includes/menu.html",
         "_includes/person-card.html",
+        "css/style.scss",
         Path("assets").glob("*.*"),
         Path("_sass").glob("*.scss")
     output: ".build-done"
